@@ -13,20 +13,10 @@
 config-version: 11
 settings:
   bungeecord: false
-  user-cache-size: 1000
   save-user-cache-on-stop-only: false
   sample-count: 12
   player-shuffle: 0
-  late-bind: false
-  filter-creative-items: true
-  int-cache-limit: 1024
-  moved-wrongly-threshold: 0.0625
-  moved-too-quickly-multiplier: 10.0
-  item-dirty-ticks: 20
-  timeout-time: 90
-  restart-on-crash: true
-  restart-script: ./start.sh
-  netty-threads: 4
+  user-cache-size: 1000
   attribute:
     maxHealth:
       max: 2048.0
@@ -34,16 +24,23 @@ settings:
       max: 2048.0
     attackDamage:
       max: 2048.0
+  timeout-time: 90
+  restart-on-crash: true
+  restart-script: ./start.sh
+  netty-threads: 4
+  late-bind: false
+  filter-creative-items: true
+  int-cache-limit: 1024
+  moved-wrongly-threshold: 0.0625
+  moved-too-quickly-multiplier: 10.0
+  item-dirty-ticks: 20
 stats:
   disable-saving: false
   forced-stats: {}
-advancements:
-  disable-saving: false
-  disabled:
-  - minecraft:story/disabled
 commands:
   tab-complete: 0
   silent-commandblock-console: false
+  log: true
   spam-exclusions:
   - /skill
   replace-commands:
@@ -51,12 +48,16 @@ commands:
   - summon
   - testforblock
   - tellraw
-  log: true
+advancements:
+  disable-saving: false
+  disabled:
+  - minecraft:story/disabled
 messages:
   restart: Server is restarting
 world-settings:
   default:
     verbose: false
+    mob-spawn-range: 4
     growth:
       cactus-modifier: 100
       cane-modifier: 100
@@ -102,7 +103,6 @@ world-settings:
     max-growth-height:
       cactus: 3
       reeds: 3
-    mob-spawn-range: 4
     merge-radius:
       exp: 3.0
       item: 2.5
