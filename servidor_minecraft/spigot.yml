@@ -11,6 +11,17 @@
 # Forums: http://www.spigotmc.org/
 
 config-version: 11
+commands:
+  log: true
+  spam-exclusions:
+  - /skill
+  replace-commands:
+  - setblock
+  - summon
+  - testforblock
+  - tellraw
+  tab-complete: 0
+  silent-commandblock-console: false
 stats:
   disable-saving: false
   forced-stats: {}
@@ -25,6 +36,7 @@ settings:
     attackDamage:
       max: 2048.0
   late-bind: false
+  filter-creative-items: true
   int-cache-limit: 1024
   moved-wrongly-threshold: 0.0625
   moved-too-quickly-multiplier: 10.0
@@ -32,22 +44,10 @@ settings:
   timeout-time: 90
   restart-on-crash: true
   restart-script: ./start.sh
-  filter-creative-items: true
   save-user-cache-on-stop-only: false
   sample-count: 12
   player-shuffle: 0
   user-cache-size: 1000
-commands:
-  log: true
-  spam-exclusions:
-  - /skill
-  replace-commands:
-  - setblock
-  - summon
-  - testforblock
-  - tellraw
-  tab-complete: 0
-  silent-commandblock-console: false
 messages:
   restart: Server is restarting
 advancements:
@@ -57,6 +57,11 @@ advancements:
 world-settings:
   default:
     verbose: false
+    squid-spawn-range:
+      min: 45.0
+    max-growth-height:
+      cactus: 3
+      reeds: 3
     growth:
       cactus-modifier: 100
       cane-modifier: 100
@@ -79,6 +84,7 @@ world-settings:
       hopper-check: 1
     hopper-amount: 1
     random-light-updates: false
+    mob-spawn-range: 4
     save-structure-info: true
     dragon-death-sound-radius: 0
     seed-village: 10387312
@@ -97,26 +103,20 @@ world-settings:
     max-tick-time:
       tile: 1000
       entity: 1000
-    squid-spawn-range:
-      min: 45.0
-    max-growth-height:
-      cactus: 3
-      reeds: 3
-    mob-spawn-range: 4
     entity-tracking-range:
       players: 48
       animals: 48
       monsters: 48
       misc: 32
       other: 64
-    enable-zombie-pigmen-portal-spawns: true
     wither-spawn-sound-radius: 0
     view-distance: 10
+    zombie-aggressive-towards-villager: true
+    hanging-tick-frequency: 100
+    enable-zombie-pigmen-portal-spawns: true
     merge-radius:
       exp: 3.0
       item: 2.5
     item-despawn-rate: 6000
     arrow-despawn-rate: 1200
-    hanging-tick-frequency: 100
-    zombie-aggressive-towards-villager: true
     nerf-spawner-mobs: false
