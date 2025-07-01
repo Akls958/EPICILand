@@ -11,11 +11,7 @@
 # Forums: http://www.spigotmc.org/
 
 config-version: 11
-stats:
-  disable-saving: false
-  forced-stats: {}
 commands:
-  log: true
   spam-exclusions:
   - /skill
   replace-commands:
@@ -23,15 +19,16 @@ commands:
   - summon
   - testforblock
   - tellraw
+  log: true
   tab-complete: 0
   silent-commandblock-console: false
 settings:
-  late-bind: false
   filter-creative-items: true
   int-cache-limit: 1024
   moved-wrongly-threshold: 0.0625
   moved-too-quickly-multiplier: 10.0
   item-dirty-ticks: 20
+  late-bind: false
   timeout-time: 90
   restart-on-crash: true
   restart-script: ./start.sh
@@ -50,6 +47,9 @@ settings:
   user-cache-size: 1000
 messages:
   restart: Server is restarting
+stats:
+  disable-saving: false
+  forced-stats: {}
 advancements:
   disable-saving: false
   disabled:
@@ -57,6 +57,7 @@ advancements:
 world-settings:
   default:
     verbose: false
+    mob-spawn-range: 4
     growth:
       cactus-modifier: 100
       cane-modifier: 100
@@ -102,7 +103,6 @@ world-settings:
     max-growth-height:
       cactus: 3
       reeds: 3
-    mob-spawn-range: 4
     entity-tracking-range:
       players: 48
       animals: 48

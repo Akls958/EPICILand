@@ -41,9 +41,9 @@ language_learning=true
 random_uid=8238887708439416832
 
 //Advancement completed for anonymous statistics
-advancements_creative=
+advancements_creative=explorer
 
 //Advancement completed for anonymous statistics
 advancements_survival=
 
-validation=346190835
+validation=346190873
