@@ -28,3 +28,13 @@
 8.1.2 01-07-2025 03:25:01 ERROR: null: Git conflict lines present in /workspaces/EPICILand/servidor_minecraft/mods/millenaire/languages/zh_tw/quests_alchemist.txt
 8.1.2 01-07-2025 03:25:01 ERROR: null: Git conflict lines present in /workspaces/EPICILand/servidor_minecraft/mods/millenaire/languages/zh_tw/quests_sadhu.txt
 8.1.2 01-07-2025 03:25:02 MAJOR: null: LanguageData loaded: fr. Wand invitem name: Wand of Summoning
+8.1.2 01-07-2025 03:35:23 Starting new session. Mods: examplemod 
+8.1.2 01-07-2025 03:35:40 MAJOR: null: Loading language: fr
+8.1.2 01-07-2025 03:35:41 ERROR: null: Git conflict lines present in /workspaces/EPICILand/servidor_minecraft/mods/millenaire/languages/zh_tw/quests_alchemist.txt
+8.1.2 01-07-2025 03:35:41 ERROR: null: Git conflict lines present in /workspaces/EPICILand/servidor_minecraft/mods/millenaire/languages/zh_tw/quests_sadhu.txt
+8.1.2 01-07-2025 03:35:41 MAJOR: null: LanguageData loaded: fr. Wand invitem name: Wand of Summoning
+8.1.2 01-07-2025 18:05:38 Starting new session. Mods: examplemod 
+8.1.2 01-07-2025 18:06:11 MAJOR: null: Loading language: fr
+8.1.2 01-07-2025 18:06:12 ERROR: null: Git conflict lines present in /workspaces/EPICILand/servidor_minecraft/mods/millenaire/languages/zh_tw/quests_alchemist.txt
+8.1.2 01-07-2025 18:06:12 ERROR: null: Git conflict lines present in /workspaces/EPICILand/servidor_minecraft/mods/millenaire/languages/zh_tw/quests_sadhu.txt
+8.1.2 01-07-2025 18:06:13 MAJOR: null: LanguageData loaded: fr. Wand invitem name: Wand of Summoning
