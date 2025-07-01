@@ -590,6 +590,12 @@
     },
     "done": true
   },
+  "minecraft:story/lava_bucket": {
+    "criteria": {
+      "lava_bucket": "2025-07-01 23:23:16 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/wooden_pickaxe": {
     "criteria": {
       "has_stick": "2025-07-01 23:01:42 +0000"
@@ -779,7 +785,8 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "skeleton": "2025-07-01 23:09:03 +0000",
-      "cave_spider": "2025-07-01 23:06:55 +0000"
+      "cave_spider": "2025-07-01 23:06:55 +0000",
+      "zombie": "2025-07-01 23:23:11 +0000"
     },
     "done": false
   },

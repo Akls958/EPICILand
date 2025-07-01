@@ -23,6 +23,12 @@
     },
     "done": true
   },
+  "minecraft:adventure/kill_a_mob": {
+    "criteria": {
+      "spider": "2025-07-01 23:26:44 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/iron_bars": {
     "criteria": {
       "has_iron_ingot": "2025-07-01 23:20:35 +0000"
@@ -402,6 +408,12 @@
       "has_egg": "2025-07-01 23:07:42 +0000"
     },
     "done": true
+  },
+  "minecraft:adventure/kill_all_mobs": {
+    "criteria": {
+      "spider": "2025-07-01 23:26:44 +0000"
+    },
+    "done": false
   },
   "minecraft:recipes/building_blocks/bookshelf": {
     "criteria": {
