@@ -1,0 +1,101 @@
+---- Mohist Crash Report ----
+
+WARNING: coremods are present:
+  llibrary (llibrary-core-1.0.11-1.12.2.jar)
+  SpartanWeaponry-MixinLoader (SpartanWeaponry-1.12.2-1.6.0.jar)
+  iceandfire (iceandfire-1.9.1-1.12.2.jar)
+  CTMCorePlugin (CTM-MC1.12.2-1.0.2.31.jar)
+Contact their authors BEFORE contacting forge
+
+
+
+Time: 6/29/25 3:16 AM
+Description: Exception in server tick loop
+
+java.lang.NoSuchMethodError: net.minecraft.item.Item.setTileEntityItemStackRenderer(Lnet/minecraft/client/renderer/tileentity/TileEntityItemStackRenderer;)V
+	at com.magistuarmory.item.ItemProperties.extract(ItemProperties.java:75)
+	at com.magistuarmory.item.MedievalItem.<init>(MedievalItem.java:11)
+	at com.magistuarmory.init.ModItems.lambda$static$0(ModItems.java:31)
+	at com.magistuarmory.init.DeferredRegister.register(DeferredRegister.java:66)
+	at com.magistuarmory.init.ModItems.<clinit>(ModItems.java:31)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_5_ModItems_registerItems_Register.invoke(.dynamic)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:96)
+	at net.minecraftforge.fml.common.eventhandler.EventBus$1.invoke(EventBus.java:143)
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:186)
+	at net.minecraftforge.registries.GameData.fireRegistryEvents(GameData.java:860)
+	at net.minecraftforge.fml.common.Loader.preinitializeMods(Loader.java:645)
+	at net.minecraftforge.fml.server.FMLServerHandler.beginServerLoading(FMLServerHandler.java:102)
+	at net.minecraftforge.fml.common.FMLCommonHandler.onServerStart(FMLCommonHandler.java:331)
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:167)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:590)
+	at java.lang.Thread.run(Thread.java:750)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Mohist version: 1.12.2-aa14cef
+	Operating System: Linux (amd64) version 6.8.0-1027-azure
+	Java Version: 1.8.0_452, Private Build
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Private Build
+	Memory: 1813565680 bytes (1729 MB) / 3261595648 bytes (3110 MB) up to 7635730432 bytes (7282 MB)
+	JVM Flags: 2 total; -Xms2G -Xmx8G
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	CraftBukkit Information: 
+   Running: 
+   Failed to handle CraftCrashReport: craftbukkit not runs
+
+	FML: MCP 9.42 Powered by Forge 14.23.5.2860 33 mods loaded, 33 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+
+	| State | ID                | Version                 | Source                                                       | Signature                                |
+	|:----- |:----------------- |:----------------------- |:------------------------------------------------------------ |:---------------------------------------- |
+	| LCH   | minecraft         | 1.12.2                  | minecraft.jar                                                | None                                     |
+	| LCH   | mcp               | 9.42                    | minecraft.jar                                                | None                                     |
+	| LCH   | mohist            | 1.12.2-aa14cef          | mohist.jar                                                   | None                                     |
+	| LCH   | FML               | 8.0.99.99               | mohist.jar                                                   | None                                     |
+	| LCH   | forge             | 14.23.5.2860            | mohist.jar                                                   | None                                     |
+	| LCH   | magistuarmory     | 1.0                     | [1.12.2]-Epic-Knights-Armor-and-Weapons-6.2v(uncomplete).jar | None                                     |
+	| LCH   | antiqueatlas      | 4.6.3                   | antiqueatlas-1.12.2-4.6.3.jar                                | None                                     |
+	| LCH   | betternether      | 0.1.8.6                 | betternether-0.1.8.6.jar                                     | None                                     |
+	| LCH   | biomesoplenty     | 7.0.1.2444              | BiomesOPlenty-1.12.2-7.0.1.2444-universal.jar                | None                                     |
+	| LCH   | carryon           | 1.12.3                  | carryon-1.12.2-1.12.7.23.jar                                 | None                                     |
+	| LCH   | jei               | 4.16.1.1013             | jei_1.12.2-4.16.1.1013.jar                                   | None                                     |
+	| LCH   | chisel            | MC1.12.2-1.0.2.45       | Chisel-MC1.12.2-1.0.2.45.jar                                 | None                                     |
+	| LCH   | cathedral         | 1.12.2-1.9.9            | Cathedral-1.12.2-1.9.9.jar                                   | None                                     |
+	| LCH   | cat               | 0.1                     | CavesAndDungeonsMod.jar                                      | None                                     |
+	| LCH   | dawnoftimebuilder | 1.0.7                   | dawnoftime_builder_edition-1.0.7.jar                         | None                                     |
+	| LCH   | dungeonsmod       | @VERSION@               | DungeonsMod-1.12.2-1.0.8.jar                                 | None                                     |
+	| LCH   | ebwizardry        | 4.3.14                  | ElectroblobsWizardry-4.3.14.jar                              | None                                     |
+	| LCH   | llibrary          | 1.7.20                  | llibrary-1.7.20-1.12.2.jar                                   | b9f30a813bee3b9dd5652c460310cfcd54f6b7ec |
+	| LCH   | iceandfire        | 1.9.1                   | iceandfire-1.9.1-1.12.2.jar                                  | None                                     |
+	| LCH   | libraryex         | 1.2.2                   | LibraryEx-1.12.2-1.2.2.jar                                   | None                                     |
+	| LCH   | mahoutsukai       | 1.12.2-v1.19.55         | mahoutsukai-1.12.2-v1.19.56.jar                              | None                                     |
+	| LCH   | mobends           | 1.2.1                   | MoBends_1.12.2-1.2.1-19.12.21.jar                            | None                                     |
+	| LCH   | mowziesmobs       | 1.5.8                   | mowziesmobs_1.12.2_1.5.8.jar                                 | None                                     |
+	| LCH   | netherex          | 2.2.5                   | NetherEx-1.12.2-2.2.5.jar                                    | None                                     |
+	| LCH   | roguelike         | 1.8.0                   | RoguelikeDungeons-1.12.2-1.8.0.jar                           | None                                     |
+	| LCH   | spartanshields    | 1.5.5                   | SpartanShields-1.12.2-1.5.5.jar                              | None                                     |
+	| LCH   | spartanweaponry   | 1.6.0                   | SpartanWeaponry-1.12.2-1.6.0.jar                             | None                                     |
+	| LCH   | tombstone         | 4.7.5                   | tombstone-1.12.2-4.7.5.jar                                   | None                                     |
+	| LCH   | trashslot         | 8.4.10                  | TrashSlot_1.12.2-8.4.10.jar                                  | None                                     |
+	| LCH   | uteamcore         | 2.2.5.375               | u_team_core-forge-1.12.2-2.2.5.375.jar                       | None                                     |
+	| LCH   | usefulbackpacks   | 1.5.4.85                | useful_backpacks-1.12.2-1.5.4.85.jar                         | None                                     |
+	| LCH   | structurize       | 1.12.2-0.10.277-RELEASE | structurize-1.12.2-0.10.277-RELEASE.jar                      | None                                     |
+	| LCH   | minecolonies      | 1.12.2-0.11.841-ALPHA   | minecolonies-1.12.2-0.11.841-BETA-universal.jar              | None                                     |
+
+	Loaded coremods (and transformers): 
+llibrary (llibrary-core-1.0.11-1.12.2.jar)
+  net.ilexiconn.llibrary.server.core.plugin.LLibraryTransformer
+  net.ilexiconn.llibrary.server.core.patcher.LLibraryRuntimePatcher
+SpartanWeaponry-MixinLoader (SpartanWeaponry-1.12.2-1.6.0.jar)
+  
+iceandfire (iceandfire-1.9.1-1.12.2.jar)
+  com.github.alexthe666.iceandfire.patcher.IceAndFireRuntimePatcher
+CTMCorePlugin (CTM-MC1.12.2-1.0.2.31.jar)
+  team.chisel.ctm.client.asm.CTMTransformer
+	Profiler Position: N/A (disabled)
+	Is Modded: Definitely; Server brand changed to 'Mohist'
+	Type: Dedicated Server (map_server.txt)
