@@ -26,10 +26,6 @@ settings:
   moved-wrongly-threshold: 0.0625
   moved-too-quickly-multiplier: 10.0
   item-dirty-ticks: 20
-  timeout-time: 90
-  restart-on-crash: true
-  restart-script: ./start.sh
-  netty-threads: 4
   attribute:
     maxHealth:
       max: 2048.0
@@ -37,6 +33,10 @@ settings:
       max: 2048.0
     attackDamage:
       max: 2048.0
+  timeout-time: 90
+  restart-on-crash: true
+  restart-script: ./start.sh
+  netty-threads: 4
 commands:
   tab-complete: 0
   silent-commandblock-console: false
