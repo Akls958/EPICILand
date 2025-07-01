@@ -23,9 +23,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/iron_bars": {
+    "criteria": {
+      "has_iron_ingot": "2025-07-01 23:20:35 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/magenta_dye_from_lilac": {
     "criteria": {
       "has_double_plant": "2025-07-01 02:16:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_sword": {
+    "criteria": {
+      "has_iron_ingot": "2025-07-01 23:20:35 +0000"
     },
     "done": true
   },
@@ -41,9 +53,63 @@
     },
     "done": true
   },
+  "biomesoplenty:recipes/decorations/crafting_table_from_bop_wood": {
+    "criteria": {
+      "has_the_recipe": "2025-07-01 23:10:43 +0000"
+    },
+    "done": true
+  },
+  "roots:wildroot": {
+    "criteria": {
+      "book": "2025-07-01 23:16:37 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/writable_book": {
     "criteria": {
       "has_book": "2025-07-01 02:23:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_door": {
+    "criteria": {
+      "has_planks": "2025-07-01 23:10:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/obtain_armor": {
+    "criteria": {
+      "iron_chestplate": "2025-07-01 23:20:27 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/redstone/trapdoor_from_bop_wood": {
+    "criteria": {
+      "has_the_recipe": "2025-07-01 23:10:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/iron_pickaxe": {
+    "criteria": {
+      "has_iron_ingot": "2025-07-01 23:20:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/minecart": {
+    "criteria": {
+      "has_iron_ingot": "2025-07-01 23:20:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_fence_gate": {
+    "criteria": {
+      "has_planks": "2025-07-01 23:10:43 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/decorations/sign_from_bop_wood": {
+    "criteria": {
+      "has_the_recipe": "2025-07-01 23:10:43 +0000"
     },
     "done": true
   },
@@ -51,8 +117,12 @@
     "criteria": {
       "forest": "2025-07-01 02:14:54 +0000",
       "birch_forest": "2025-07-01 02:40:40 +0000",
+      "extreme_hills_with_trees": "2025-07-01 23:08:23 +0000",
       "forest_hills": "2025-07-01 02:14:22 +0000",
+      "plains": "2025-07-01 23:15:01 +0000",
       "birch_forest_hills": "2025-07-01 02:40:04 +0000",
+      "extreme_hills": "2025-07-01 23:07:34 +0000",
+      "roofed_forest": "2025-07-01 23:16:21 +0000",
       "river": "2025-07-01 02:39:58 +0000"
     },
     "done": false
@@ -63,9 +133,45 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/iron_door": {
+    "criteria": {
+      "has_iron_ingot": "2025-07-01 23:20:35 +0000"
+    },
+    "done": true
+  },
   "ebwizardry:crystal": {
     "criteria": {
       "criteria_0": "2025-07-01 02:22:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "has_planks": "2025-07-01 23:10:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_planks": {
+    "criteria": {
+      "has_log": "2025-07-01 23:09:58 +0000"
+    },
+    "done": true
+  },
+  "roots:all_the_herbs_3": {
+    "criteria": {
+      "wildroot": "2025-07-01 23:16:37 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/tools/iron_hoe": {
+    "criteria": {
+      "has_iron_ingot": "2025-07-01 23:20:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/trapdoor": {
+    "criteria": {
+      "has_planks": "2025-07-01 23:10:43 +0000"
     },
     "done": true
   },
@@ -84,6 +190,12 @@
   "minecraft:husbandry/root": {
     "criteria": {
       "consumed_item": "2025-07-01 02:21:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_nugget": {
+    "criteria": {
+      "has_iron_ingot": "2025-07-01 23:20:35 +0000"
     },
     "done": true
   },
@@ -135,9 +247,39 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/iron_shovel": {
+    "criteria": {
+      "has_iron_ingot": "2025-07-01 23:20:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/wooden_pressure_plate": {
+    "criteria": {
+      "has_planks": "2025-07-01 23:10:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/iron_trapdoor": {
+    "criteria": {
+      "has_iron_ingot": "2025-07-01 23:20:35 +0000"
+    },
+    "done": true
+  },
   "biomesoplenty:recipes/transportation/boat_redwood": {
     "criteria": {
       "entered_water": "2025-07-01 02:39:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/shears": {
+    "criteria": {
+      "has_iron_ingot": "2025-07-01 23:20:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/stick": {
+    "criteria": {
+      "has_planks": "2025-07-01 23:10:43 +0000"
     },
     "done": true
   },
@@ -171,6 +313,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/sign": {
+    "criteria": {
+      "has_planks": "2025-07-01 23:10:43 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/spruce_boat": {
     "criteria": {
       "entered_water": "2025-07-01 02:39:57 +0000"
@@ -183,15 +331,33 @@
     },
     "done": true
   },
+  "biomesoplenty:recipes/redstone/wooden_pressure_plate_from_bop_wood": {
+    "criteria": {
+      "has_the_recipe": "2025-07-01 23:10:43 +0000"
+    },
+    "done": true
+  },
   "rustic:recipes/almanac": {
     "criteria": {
       "has_book": "2025-07-01 02:23:28 +0000"
     },
     "done": true
   },
+  "minecraft:recipes/redstone/wooden_button": {
+    "criteria": {
+      "has_planks": "2025-07-01 23:10:43 +0000"
+    },
+    "done": true
+  },
   "biomesoplenty:recipes/transportation/boat_ethereal": {
     "criteria": {
       "entered_water": "2025-07-01 02:39:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/heavy_weighted_pressure_plate": {
+    "criteria": {
+      "has_iron_ingot": "2025-07-01 23:20:35 +0000"
     },
     "done": true
   },
@@ -204,6 +370,12 @@
   "biomesoplenty:recipes/transportation/boat_cherry": {
     "criteria": {
       "entered_water": "2025-07-01 02:39:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/spruce_fence": {
+    "criteria": {
+      "has_planks": "2025-07-01 23:10:43 +0000"
     },
     "done": true
   },
@@ -225,9 +397,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cake": {
+    "criteria": {
+      "has_egg": "2025-07-01 23:07:42 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/bookshelf": {
     "criteria": {
       "has_book": "2025-07-01 02:23:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_leggings": {
+    "criteria": {
+      "has_iron_ingot": "2025-07-01 23:20:35 +0000"
     },
     "done": true
   },
@@ -237,15 +421,51 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/iron_axe": {
+    "criteria": {
+      "has_iron_ingot": "2025-07-01 23:20:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/shield": {
+    "criteria": {
+      "has_iron_ingot": "2025-07-01 23:20:35 +0000"
+    },
+    "done": true
+  },
   "ebwizardry:defeat_evil_wizard": {
     "criteria": {
       "criteria_0": "2025-07-01 02:22:18 +0000"
     },
     "done": true
   },
+  "biomesoplenty:recipes/redstone/wooden_button_from_bop_wood": {
+    "criteria": {
+      "has_the_recipe": "2025-07-01 23:10:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_stairs": {
+    "criteria": {
+      "has_planks": "2025-07-01 23:10:43 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/tripwire_hook": {
     "criteria": {
       "has_string": "2025-07-01 02:23:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bucket": {
+    "criteria": {
+      "has_iron_ingot": "2025-07-01 23:20:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_boots": {
+    "criteria": {
+      "has_iron_ingot": "2025-07-01 23:20:35 +0000"
     },
     "done": true
   },
@@ -258,6 +478,18 @@
   "ebwizardry:artefact": {
     "criteria": {
       "amulet_resurrection": "2025-07-01 02:23:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/birch_planks": {
+    "criteria": {
+      "has_log": "2025-07-01 23:07:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/hopper": {
+    "criteria": {
+      "has_iron_ingot": "2025-07-01 23:20:35 +0000"
     },
     "done": true
   },
@@ -285,9 +517,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/spruce_wooden_slab": {
+    "criteria": {
+      "has_planks": "2025-07-01 23:10:43 +0000"
+    },
+    "done": true
+  },
   "biomesoplenty:recipes/transportation/boat_mangrove": {
     "criteria": {
       "entered_water": "2025-07-01 02:39:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_chestplate": {
+    "criteria": {
+      "has_iron_ingot": "2025-07-01 23:20:35 +0000"
     },
     "done": true
   },
@@ -297,9 +541,21 @@
     },
     "done": true
   },
+  "minecraft:story/smelt_iron": {
+    "criteria": {
+      "iron": "2025-07-01 23:20:35 +0000"
+    },
+    "done": true
+  },
   "biomesoplenty:recipes/transportation/boat_eucalyptus": {
     "criteria": {
       "entered_water": "2025-07-01 02:39:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_helmet": {
+    "criteria": {
+      "has_iron_ingot": "2025-07-01 23:20:35 +0000"
     },
     "done": true
   }

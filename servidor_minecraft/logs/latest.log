@@ -29668,3 +29668,622 @@ Waystones: Requires version 4.1.0 but mod is not found on client.
 [23:05:23] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
 [23:05:23] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
 [23:05:23] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[23:06:36] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[23:06:46] [User Authenticator #6/INFO] [net.minecraft.server.network.NetHandlerLoginServer]: UUID of player Akls is 49a8f3a9-37ad-3f72-9c9f-458ae7bcdb81
+[23:06:46] [Server thread/TRACE] [FML]: Handshake channel activating
+[23:06:46] [Server thread/DEBUG] [FML]: FMLHandshakeServerState: null->FMLHandshakeServerState$1:START
+[23:06:46] [Server thread/DEBUG] [FML]:   Next: HELLO
+[23:06:46] [Netty Epoll Server IO #3/DEBUG] [FML]: FMLHandshakeServerState: $ClientHello->FMLHandshakeServerState$2:HELLO
+[23:06:46] [Netty Epoll Server IO #3/DEBUG] [FML]: FMLHandshakeServerState: $ModList:44 mods->FMLHandshakeServerState$2:HELLO
+[23:06:46] [Netty Epoll Server IO #3/INFO] [FML]: Client attempting to join with 44 mods : minecraft@1.12.2,levelup2@${version},mowziesmobs@1.5.8,dldungeonsjbg@1.14.14,ftbquests@1.8.1,biomesoplenty@7.0.1.2445,baubles@1.5.2,creativecoredummy@1.0.0,creativecore@1.10.0,itemfilters@1.0.4.2,battletowers@1.6.5,ebwizardry@4.3.14,mmorpg@1.9.6,jei@4.16.1.1013,rustic@1.2.0,roguelike@1.8.0,patchouli@1.0-23.6,spartanshields@1.5.5,waystones@4.1.0,mcp@9.42,epicfight@1.12.2-2.2.8,FML@8.0.99.99,structurize@1.12.2-0.10.277-RELEASE,customnpcs@1.12,llibrary@1.7.20,minecolonies@1.12.2-0.11.841-ALPHA,spartanweaponry@1.6.0,appleskin@1.0.14,millenaire@Millénaire 8.1.2,roots@1.12.2-3.1.9.2,antiqueatlasoverlay@1.2,iceandfire@1.9.1,ftblib@5.4.7.0,guideapi@1.12-2.1.8-63,mysticalworld@1.12.2-1.11.0,firstaid@1.6.22,forge@14.23.5.2860,bloodmagic@1.12.2-2.4.3-105,mysticallib@1.12.2-1.13.0,codechickenlib@3.2.3.358,playerrevive@1.0,orelib@3.6.0.1,dsurround@@VERSION@,antiqueatlas@4.6.3
+[23:06:46] [Netty Epoll Server IO #3/INFO] [FML]: Forge Mod Loader has successfully loaded [mohist, dynmap] modCLIENT
+[23:06:46] [Netty Epoll Server IO #3/DEBUG] [FML]:   Next: WAITINGCACK
+[23:06:46] [Netty Epoll Server IO #3/DEBUG] [FML]: FMLHandshakeServerState: $HandshakeAck:{2}->FMLHandshakeServerState$3:WAITINGCACK
+[23:06:46] [Netty Epoll Server IO #3/DEBUG] [FML]:   Next: COMPLETE
+[23:06:46] [Netty Epoll Server IO #3/INFO] [CodeChickenLib-ConfigSync]: Skipping config sync, No mods have registered a syncable config.
+[23:06:48] [Netty Epoll Server IO #3/DEBUG] [FML]: FMLHandshakeServerState: $HandshakeAck:{3}->FMLHandshakeServerState$4:COMPLETE
+[23:06:48] [Netty Epoll Server IO #3/DEBUG] [FML]:   Next: DONE
+[23:06:48] [Netty Epoll Server IO #3/DEBUG] [FML]: FMLHandshakeServerState: $HandshakeAck:{4}->FMLHandshakeServerState$5:DONE
+[23:06:48] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[23:06:48] [Server thread/INFO] [dsurround]: Player [Akls] connected with Dynamic Surroundings @VERSION@
+[23:06:48] [Server thread/INFO] [ebwizardry]: Sending global donation perk settings to Akls
+[23:06:48] [Server thread/DEBUG] [firstaid]: Sending damage model to Akls
+[23:06:48] [Server thread/INFO] [ebwizardry]: Synchronising spell glyph data for Akls
+[23:06:48] [Server thread/INFO] [ebwizardry]: Synchronising spell emitters for Akls
+[23:06:48] [Server thread/INFO] [ebwizardry]: Synchronising config settings for Akls
+[23:06:48] [Server thread/INFO] [ebwizardry]: Synchronising advancements for Akls
+[23:06:48] [Server thread/INFO] [antiqueatlas]: Sent custom biome data to player Akls
+[23:06:48] [Server thread/INFO] [antiqueatlas]: Sent markers data #-1 to player Akls
+[23:06:48] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Akls[/127.99.198.158:45849] logged in with entity id 4132 at ([world]-226.01943403958114, 64.0, 161.63241212360924)
+[23:06:48] [Netty Epoll Server IO #3/DEBUG] [FML]: FMLHandshakeServerState: $HandshakeAck:{5}->FMLHandshakeServerState$5:DONE
+[23:06:53] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:06:53] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:06:53] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:06:53] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:06:53] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:06:53] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:06:54] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:06:54] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:06:54] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:06:54] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:06:54] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:06:54] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:06:54] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:06:54] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:06:54] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:06:54] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:06:54] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:06:54] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:06:54] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:06:54] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:06:54] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:06:54] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:06:54] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:06:55] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:06:55] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:06:55] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:06:55] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:06:55] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:06:55] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:06:55] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:06:55] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:06:55] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:06:55] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:06:55] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:06:55] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:06:55] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:06:55] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:06:55] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:06:55] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:06:55] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:06:55] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:06:55] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:06:55] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: tobitho has made the advancement [Monster Hunter]
+[23:06:55] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[23:06:55] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:06:55] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:06:56] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[23:06:56] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[23:06:56] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[23:06:56] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[23:07:08] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:07:08] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:07:13] [Server thread/INFO] [ebwizardry]: Synchronising advancements for Akls
+[23:07:42] [Server thread/INFO] [ebwizardry]: Synchronising advancements for Akls
+[23:07:47] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:07:47] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:07:47] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:07:47] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:07:47] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:07:47] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:07:47] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:07:47] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:08:04] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:08:04] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:08:04] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:08:04] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:08:04] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:08:04] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:08:04] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:08:04] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:08:04] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:08:04] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:08:04] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:08:04] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:08:04] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:08:04] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:08:05] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:08:05] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:08:05] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:08:05] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:08:05] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:08:05] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:08:05] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:08:05] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:08:05] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:08:05] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:08:05] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:08:05] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:08:05] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:08:05] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:08:05] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:08:05] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:08:05] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:08:05] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:08:05] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:08:05] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:08:05] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:08:05] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:08:06] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:08:06] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:08:06] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:08:06] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:08:06] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:08:06] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:08:06] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:08:06] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:08:09] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:08:09] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:08:09] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:08:09] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:08:09] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:08:09] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:08:09] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:08:09] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:08:09] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:08:09] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:08:09] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:08:09] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:08:09] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:08:09] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:08:27] [Server thread/INFO] [antiqueatlas]: Created new marker #7"integration.antiqueatlas.marker.ebwizardry.wizard_tower"@(-14, 30)
+[23:08:43] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:08:43] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:08:43] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:08:43] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:08:43] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:08:44] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:08:44] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:08:44] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:08:44] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:08:44] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:08:44] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:08:44] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:08:47] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:08:47] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:08:47] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:08:47] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:08:47] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:08:47] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:08:47] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:08:58] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:08:59] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:08:59] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:08:59] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:08:59] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:08:59] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:08:59] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:08:59] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:08:59] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:08:59] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:08:59] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:08:59] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:08:59] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:08:59] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:08:59] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:08:59] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:08:59] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:08:59] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:08:59] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:08:59] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:09:01] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:09:01] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:09:01] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:09:02] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:09:02] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:09:02] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:09:02] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:09:02] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:09:02] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:09:02] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:09:02] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:09:02] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:09:02] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:09:02] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:09:02] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:09:02] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:09:02] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:09:02] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:09:02] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:09:02] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:09:02] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:09:02] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:09:02] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:09:03] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:09:03] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:09:03] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:09:03] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:09:03] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:09:03] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:09:03] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:09:03] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:09:03] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:09:03] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:09:03] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:09:03] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:09:03] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:09:03] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:09:03] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:09:03] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:09:03] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:09:03] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:09:03] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:09:03] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:09:04] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:09:04] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:09:04] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:09:04] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:09:04] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:09:04] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:09:04] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:09:04] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:09:04] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:09:04] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:09:04] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:09:04] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:09:04] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:09:04] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:09:04] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:09:04] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:09:04] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:09:04] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:09:04] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:09:04] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:09:05] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:09:05] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:09:05] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:09:05] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:09:05] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:09:05] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:09:05] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:09:05] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:09:05] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:09:05] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:09:05] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:09:05] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:09:05] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:09:05] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:09:05] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:09:05] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:09:05] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:09:05] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:09:05] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:09:05] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:09:06] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:09:06] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:09:06] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:09:06] [Server thread/DEBUG] [Spartan Weaponry]: Player collision with arrow entity intercepted!
+[23:09:31] [Server thread/INFO] []: Logged 
+[23:09:31] [Server thread/INFO] []: 13
+[23:09:31] [Server thread/INFO] []:  towers so far for world 
+[23:09:31] [Server thread/INFO] []: /workspaces/EPICILand/servidor_minecraft/world
+[23:09:31] [Server thread/INFO] []: , accepted new site coords [
+[23:09:31] [Server thread/INFO] []: -272
+[23:09:31] [Server thread/INFO] []: ,
+[23:09:31] [Server thread/INFO] []: -64
+[23:09:31] [Server thread/INFO] []: ], mindist 
+[23:09:31] [Server thread/INFO] []: 208.000000
+[23:09:31] [Server thread/DEBUG] [FML]: Battle Towers loaded a new chunk [-18, -5] in dimension 0 (overworld) while populating chunk [-17, -4], causing cascading worldgen lag.
+[23:09:31] [Server thread/DEBUG] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[23:09:31] [Server thread/INFO] []: Dimension 0 Battle Tower type CobbleStone spawned at [ -272 | -64 ], underground: true
+[23:09:58] [Server thread/INFO] [ebwizardry]: Synchronising advancements for Akls
+[23:10:12] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[23:10:12] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[23:10:12] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[23:10:12] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[23:10:12] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[23:10:12] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[23:10:13] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[23:10:13] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[23:10:19] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[23:10:19] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[23:10:19] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[23:10:19] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[23:10:19] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[23:10:19] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[23:10:19] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[23:10:19] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[23:10:19] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[23:10:19] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[23:10:19] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[23:10:19] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[23:10:19] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[23:10:19] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[23:10:19] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[23:10:20] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[23:10:20] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[23:10:20] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[23:10:20] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[23:10:20] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[23:10:20] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[23:10:20] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[23:10:20] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[23:10:20] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[23:10:20] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[23:10:20] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[23:10:20] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[23:10:20] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[23:10:20] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[23:10:20] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[23:10:20] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[23:10:20] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[23:10:20] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: tobitho has made the advancement [Acquire Hardware]
+[23:10:20] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[23:10:20] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[23:10:20] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[23:10:20] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[23:10:20] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[23:10:20] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[23:10:20] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[23:10:20] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[23:10:20] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[23:10:20] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: tobitho has made the advancement [Diamonds!]
+[23:10:20] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[23:10:20] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[23:10:20] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[23:10:20] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[23:10:20] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[23:10:43] [Server thread/INFO] [ebwizardry]: Synchronising advancements for Akls
+[23:10:43] [Server thread/INFO] [ebwizardry]: Synchronising advancements for Akls
+[23:10:43] [Server thread/INFO] [ebwizardry]: Synchronising advancements for Akls
+[23:10:43] [Server thread/INFO] [ebwizardry]: Synchronising advancements for Akls
+[23:10:43] [Server thread/INFO] [ebwizardry]: Synchronising advancements for Akls
+[23:10:43] [Server thread/INFO] [ebwizardry]: Synchronising advancements for Akls
+[23:10:43] [Server thread/INFO] [ebwizardry]: Synchronising advancements for Akls
+[23:10:43] [Server thread/INFO] [ebwizardry]: Synchronising advancements for Akls
+[23:10:43] [Server thread/INFO] [ebwizardry]: Synchronising advancements for Akls
+[23:10:43] [Server thread/INFO] [ebwizardry]: Synchronising advancements for Akls
+[23:10:43] [Server thread/INFO] [ebwizardry]: Synchronising advancements for Akls
+[23:10:43] [Server thread/INFO] [ebwizardry]: Synchronising advancements for Akls
+[23:10:43] [Server thread/INFO] [ebwizardry]: Synchronising advancements for Akls
+[23:10:43] [Server thread/INFO] [ebwizardry]: Synchronising advancements for Akls
+[23:10:43] [Server thread/INFO] [ebwizardry]: Synchronising advancements for Akls
+[23:10:43] [Server thread/INFO] [ebwizardry]: Synchronising advancements for Akls
+[23:11:37] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[23:11:37] [Server thread/INFO] [antiqueatlas]: Saving local markers data to NBT
+[23:11:43] [Server thread/INFO] []: Logged 
+[23:11:43] [Server thread/INFO] []: 14
+[23:11:43] [Server thread/INFO] []:  towers so far for world 
+[23:11:43] [Server thread/INFO] []: /workspaces/EPICILand/servidor_minecraft/world
+[23:11:43] [Server thread/INFO] []: , accepted new site coords [
+[23:11:43] [Server thread/INFO] []: 80
+[23:11:43] [Server thread/INFO] []: ,
+[23:11:43] [Server thread/INFO] []: -48
+[23:11:43] [Server thread/INFO] []: ], mindist 
+[23:11:43] [Server thread/INFO] []: 200.479425
+[23:11:43] [Server thread/INFO] []: Dimension 0 Battle Tower type CobbleStone spawned at [ 80 | -48 ], underground: false
+[23:11:52] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: tobitho has made the advancement [Rotten to the Core]
+[23:11:52] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[23:12:50] [Server thread/DEBUG] [FML]: Millenaire loaded a new chunk [-4, 25] in dimension 0 (overworld) while populating chunk [10, 15], causing cascading worldgen lag.
+[23:12:50] [Server thread/DEBUG] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[23:12:50] [Server thread/DEBUG] [FML]: Millenaire loaded a new chunk [-3, 25] in dimension 0 (overworld) while populating chunk [10, 15], causing cascading worldgen lag.
+[23:12:50] [Server thread/DEBUG] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[23:12:50] [Server thread/DEBUG] [FML]: Millenaire loaded a new chunk [-2, 25] in dimension 0 (overworld) while populating chunk [10, 15], causing cascading worldgen lag.
+[23:12:50] [Server thread/DEBUG] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[23:12:50] [Server thread/DEBUG] [FML]: Millenaire loaded a new chunk [-1, 25] in dimension 0 (overworld) while populating chunk [10, 15], causing cascading worldgen lag.
+[23:12:50] [Server thread/DEBUG] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[23:12:50] [Server thread/DEBUG] [FML]: Millenaire loaded a new chunk [0, 25] in dimension 0 (overworld) while populating chunk [10, 15], causing cascading worldgen lag.
+[23:12:50] [Server thread/DEBUG] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[23:12:50] [Server thread/DEBUG] [FML]: Millenaire loaded a new chunk [2, 25] in dimension 0 (overworld) while populating chunk [10, 15], causing cascading worldgen lag.
+[23:12:50] [Server thread/DEBUG] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[23:12:50] [Server thread/DEBUG] [FML]: Millenaire loaded a new chunk [1, 25] in dimension 0 (overworld) while populating chunk [10, 15], causing cascading worldgen lag.
+[23:12:50] [Server thread/DEBUG] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[23:12:50] [Server thread/DEBUG] [FML]: Millenaire loaded a new chunk [6, 25] in dimension 0 (overworld) while populating chunk [10, 15], causing cascading worldgen lag.
+[23:12:50] [Server thread/DEBUG] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[23:13:02] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Akls was killed by magic
+[23:13:04] [Server thread/INFO] [ebwizardry]: Sending global donation perk settings to Akls
+[23:14:58] [Server thread/INFO] [antiqueatlas]: Created new marker #8"gui.antiqueatlas.marker.village"@(-235, 837)
+[23:14:58] [Server thread/DEBUG] [antiqueatlas]: Visited Village in dimension 0 at [-15, 52]
+[23:15:31] [Server thread/INFO] [antiqueatlas]: Created new marker #9"integration.antiqueatlas.marker.ebwizardry.wizard_tower"@(83, 660)
+[23:16:37] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Akls has made the advancement [The Root of Magic]
+[23:16:37] [Server thread/INFO] [ebwizardry]: Synchronising advancements for Akls
+[23:16:40] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[23:16:40] [Server thread/INFO] [antiqueatlas]: Saving local markers data to NBT
+[23:16:48] [Server thread/INFO] []: Logged 
+[23:16:48] [Server thread/INFO] []: 15
+[23:16:48] [Server thread/INFO] []:  towers so far for world 
+[23:16:48] [Server thread/INFO] []: /workspaces/EPICILand/servidor_minecraft/world
+[23:16:48] [Server thread/INFO] []: , accepted new site coords [
+[23:16:48] [Server thread/INFO] []: -224
+[23:16:48] [Server thread/INFO] []: ,
+[23:16:48] [Server thread/INFO] []: 800
+[23:16:48] [Server thread/INFO] []: ], mindist 
+[23:16:48] [Server thread/INFO] []: 197.909070
+[23:16:48] [Server thread/INFO] []: Dimension 0 Battle Tower type CobbleStoneMossy spawned at [ -224 | 800 ], underground: true
+[23:16:53] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[23:16:53] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[23:17:01] [Server thread/INFO] [antiqueatlas]: Created new marker #10"integration.antiqueatlas.marker.ebwizardry.wizard_tower"@(-349, 694)
+[23:17:07] [User Authenticator #7/INFO] [net.minecraft.server.network.NetHandlerLoginServer]: UUID of player Logean is 1b2ce24e-4ec8-317d-b10f-efe6cc7cdfd9
+[23:17:07] [Server thread/TRACE] [FML]: Handshake channel activating
+[23:17:07] [Server thread/DEBUG] [FML]: FMLHandshakeServerState: null->FMLHandshakeServerState$1:START
+[23:17:07] [Server thread/DEBUG] [FML]:   Next: HELLO
+[23:17:07] [Netty Epoll Server IO #1/DEBUG] [FML]: FMLHandshakeServerState: $ClientHello->FMLHandshakeServerState$2:HELLO
+[23:17:07] [Netty Epoll Server IO #1/DEBUG] [FML]: FMLHandshakeServerState: $ModList:45 mods->FMLHandshakeServerState$2:HELLO
+[23:17:07] [Netty Epoll Server IO #1/INFO] [FML]: Client attempting to join with 45 mods : minecraft@1.12.2,levelup2@${version},mowziesmobs@1.5.8,dldungeonsjbg@1.14.14,ftbquests@1.8.1,biomesoplenty@7.0.1.2445,baubles@1.5.2,creativecoredummy@1.0.0,creativecore@1.10.0,itemfilters@1.0.4.2,battletowers@1.6.5,ebwizardry@4.3.14,mmorpg@1.9.6,jei@4.16.1.1013,rustic@1.2.0,roguelike@1.8.0,patchouli@1.0-23.6,spartanshields@1.5.5,waystones@4.1.0,mcp@9.42,epicfight@1.12.2-2.2.8,FML@8.0.99.99,structurize@1.12.2-0.10.277-RELEASE,customnpcs@1.12,llibrary@1.7.20,minecolonies@1.12.2-0.11.841-ALPHA,spartanweaponry@1.6.0,appleskin@1.0.14,millenaire@Millénaire 8.1.2,roots@1.12.2-3.1.9.2,antiqueatlasoverlay@1.2,iceandfire@1.9.1,ftblib@5.4.7.0,tlauncher_custom_cape_skin@1.4,guideapi@1.12-2.1.8-63,mysticalworld@1.12.2-1.11.0,firstaid@1.6.22,forge@14.23.5.2860,bloodmagic@1.12.2-2.4.3-105,mysticallib@1.12.2-1.13.0,codechickenlib@3.2.3.358,playerrevive@1.0,orelib@3.6.0.1,dsurround@@VERSION@,antiqueatlas@4.6.3
+[23:17:07] [Netty Epoll Server IO #1/INFO] [FML]: Forge Mod Loader has successfully loaded [mohist, dynmap] modCLIENT
+[23:17:07] [Netty Epoll Server IO #1/DEBUG] [FML]:   Next: WAITINGCACK
+[23:17:07] [Netty Epoll Server IO #1/DEBUG] [FML]: FMLHandshakeServerState: $HandshakeAck:{2}->FMLHandshakeServerState$3:WAITINGCACK
+[23:17:07] [Netty Epoll Server IO #1/DEBUG] [FML]:   Next: COMPLETE
+[23:17:07] [Netty Epoll Server IO #1/INFO] [CodeChickenLib-ConfigSync]: Skipping config sync, No mods have registered a syncable config.
+[23:17:09] [Netty Epoll Server IO #1/DEBUG] [FML]: FMLHandshakeServerState: $HandshakeAck:{3}->FMLHandshakeServerState$4:COMPLETE
+[23:17:09] [Netty Epoll Server IO #1/DEBUG] [FML]:   Next: DONE
+[23:17:09] [Netty Epoll Server IO #1/DEBUG] [FML]: FMLHandshakeServerState: $HandshakeAck:{4}->FMLHandshakeServerState$5:DONE
+[23:17:09] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[23:17:09] [Server thread/INFO] [dsurround]: Player [Logean] connected with Dynamic Surroundings @VERSION@
+[23:17:09] [Server thread/INFO] [ebwizardry]: Sending global donation perk settings to Logean
+[23:17:09] [Netty Epoll Server IO #1/DEBUG] [FML]: FMLHandshakeServerState: $HandshakeAck:{5}->FMLHandshakeServerState$5:DONE
+[23:17:09] [Server thread/DEBUG] [firstaid]: Sending damage model to Logean
+[23:17:09] [Server thread/INFO] [ebwizardry]: Synchronising spell glyph data for Logean
+[23:17:09] [Server thread/INFO] [ebwizardry]: Synchronising spell emitters for Logean
+[23:17:09] [Server thread/INFO] [ebwizardry]: Synchronising config settings for Logean
+[23:17:09] [Server thread/INFO] [ebwizardry]: Synchronising advancements for Logean
+[23:17:09] [Server thread/INFO] [antiqueatlas]: Sent custom biome data to player Logean
+[23:17:09] [Server thread/INFO] [antiqueatlas]: Sent markers data #-1 to player Logean
+[23:17:09] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Logean[/127.42.228.111:40047] logged in with entity id 10739 at ([world]-378.0755061022467, 81.0, 261.178884123666)
+[23:17:24] [Server thread/INFO] []: Unknown command. Type "/help" for help.
+[23:18:28] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Akls lost connection: Flying is not enabled on this server!
+[23:18:28] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Akls left the game
+[23:18:28] [Server thread/WARN] [Mohist]: handle Disconnection() called twice
+[23:19:09] [User Authenticator #8/INFO] [net.minecraft.server.network.NetHandlerLoginServer]: UUID of player Akls is 49a8f3a9-37ad-3f72-9c9f-458ae7bcdb81
+[23:19:09] [Server thread/TRACE] [FML]: Handshake channel activating
+[23:19:09] [Server thread/DEBUG] [FML]: FMLHandshakeServerState: null->FMLHandshakeServerState$1:START
+[23:19:09] [Server thread/DEBUG] [FML]:   Next: HELLO
+[23:19:09] [Netty Epoll Server IO #3/DEBUG] [FML]: FMLHandshakeServerState: $ClientHello->FMLHandshakeServerState$2:HELLO
+[23:19:09] [Netty Epoll Server IO #3/DEBUG] [FML]: FMLHandshakeServerState: $ModList:44 mods->FMLHandshakeServerState$2:HELLO
+[23:19:09] [Netty Epoll Server IO #3/INFO] [FML]: Client attempting to join with 44 mods : minecraft@1.12.2,levelup2@${version},mowziesmobs@1.5.8,dldungeonsjbg@1.14.14,ftbquests@1.8.1,biomesoplenty@7.0.1.2445,baubles@1.5.2,creativecoredummy@1.0.0,creativecore@1.10.0,itemfilters@1.0.4.2,battletowers@1.6.5,ebwizardry@4.3.14,mmorpg@1.9.6,jei@4.16.1.1013,rustic@1.2.0,roguelike@1.8.0,patchouli@1.0-23.6,spartanshields@1.5.5,waystones@4.1.0,mcp@9.42,epicfight@1.12.2-2.2.8,FML@8.0.99.99,structurize@1.12.2-0.10.277-RELEASE,customnpcs@1.12,llibrary@1.7.20,minecolonies@1.12.2-0.11.841-ALPHA,spartanweaponry@1.6.0,appleskin@1.0.14,millenaire@Millénaire 8.1.2,roots@1.12.2-3.1.9.2,antiqueatlasoverlay@1.2,iceandfire@1.9.1,ftblib@5.4.7.0,guideapi@1.12-2.1.8-63,mysticalworld@1.12.2-1.11.0,firstaid@1.6.22,forge@14.23.5.2860,bloodmagic@1.12.2-2.4.3-105,mysticallib@1.12.2-1.13.0,codechickenlib@3.2.3.358,playerrevive@1.0,orelib@3.6.0.1,dsurround@@VERSION@,antiqueatlas@4.6.3
+[23:19:09] [Netty Epoll Server IO #3/INFO] [FML]: Forge Mod Loader has successfully loaded [mohist, dynmap] modCLIENT
+[23:19:09] [Netty Epoll Server IO #3/DEBUG] [FML]:   Next: WAITINGCACK
+[23:19:09] [Netty Epoll Server IO #3/DEBUG] [FML]: FMLHandshakeServerState: $HandshakeAck:{2}->FMLHandshakeServerState$3:WAITINGCACK
+[23:19:09] [Netty Epoll Server IO #3/DEBUG] [FML]:   Next: COMPLETE
+[23:19:09] [Netty Epoll Server IO #3/INFO] [CodeChickenLib-ConfigSync]: Skipping config sync, No mods have registered a syncable config.
+[23:19:10] [Netty Epoll Server IO #3/DEBUG] [FML]: FMLHandshakeServerState: $HandshakeAck:{3}->FMLHandshakeServerState$4:COMPLETE
+[23:19:10] [Netty Epoll Server IO #3/DEBUG] [FML]:   Next: DONE
+[23:19:10] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[23:19:10] [Netty Epoll Server IO #3/DEBUG] [FML]: FMLHandshakeServerState: $HandshakeAck:{4}->FMLHandshakeServerState$5:DONE
+[23:19:10] [Server thread/INFO] [dsurround]: Player [Akls] connected with Dynamic Surroundings @VERSION@
+[23:19:10] [Server thread/INFO] [ebwizardry]: Sending global donation perk settings to Akls
+[23:19:11] [Server thread/DEBUG] [firstaid]: Sending damage model to Akls
+[23:19:11] [Server thread/INFO] [ebwizardry]: Synchronising spell glyph data for Akls
+[23:19:11] [Server thread/INFO] [ebwizardry]: Synchronising spell emitters for Akls
+[23:19:11] [Server thread/INFO] [ebwizardry]: Synchronising config settings for Akls
+[23:19:11] [Server thread/INFO] [ebwizardry]: Synchronising advancements for Akls
+[23:19:11] [Server thread/INFO] [antiqueatlas]: Sent custom biome data to player Akls
+[23:19:11] [Server thread/INFO] [antiqueatlas]: Sent markers data #-1 to player Akls
+[23:19:11] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Akls[/127.99.198.158:54465] logged in with entity id 12239 at ([world]-114.23819199344516, 65.11274447482063, 559.1428705318555)
+[23:19:11] [Netty Epoll Server IO #3/DEBUG] [FML]: FMLHandshakeServerState: $HandshakeAck:{5}->FMLHandshakeServerState$5:DONE
+[23:19:59] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: tobitho has made the advancement [Isn't It Iron Pick]
+[23:19:59] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[23:20:20] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[23:20:20] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[23:20:20] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[23:20:27] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Akls has made the advancement [Suit Up]
+[23:20:27] [Server thread/INFO] [ebwizardry]: Synchronising advancements for Akls
+[23:20:35] [Server thread/INFO] [ebwizardry]: Synchronising advancements for Akls
+[23:20:35] [Server thread/INFO] [ebwizardry]: Synchronising advancements for Akls
+[23:20:35] [Server thread/INFO] [ebwizardry]: Synchronising advancements for Akls
+[23:20:35] [Server thread/INFO] [ebwizardry]: Synchronising advancements for Akls
+[23:20:35] [Server thread/INFO] [ebwizardry]: Synchronising advancements for Akls
+[23:20:35] [Server thread/INFO] [ebwizardry]: Synchronising advancements for Akls
+[23:20:35] [Server thread/INFO] [ebwizardry]: Synchronising advancements for Akls
+[23:20:35] [Server thread/INFO] [ebwizardry]: Synchronising advancements for Akls
+[23:20:35] [Server thread/INFO] [ebwizardry]: Synchronising advancements for Akls
+[23:20:35] [Server thread/INFO] [ebwizardry]: Synchronising advancements for Akls
+[23:20:35] [Server thread/INFO] [ebwizardry]: Synchronising advancements for Akls
+[23:20:35] [Server thread/INFO] [ebwizardry]: Synchronising advancements for Akls
+[23:20:35] [Server thread/INFO] [ebwizardry]: Synchronising advancements for Akls
+[23:20:35] [Server thread/INFO] [ebwizardry]: Synchronising advancements for Akls
+[23:20:35] [Server thread/INFO] [ebwizardry]: Synchronising advancements for Akls
+[23:20:35] [Server thread/INFO] [ebwizardry]: Synchronising advancements for Akls
+[23:20:35] [Server thread/INFO] [ebwizardry]: Synchronising advancements for Akls
+[23:20:35] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Akls has made the advancement [Acquire Hardware]
+[23:20:35] [Server thread/INFO] [ebwizardry]: Synchronising advancements for Akls
+[23:20:35] [Server thread/INFO] [ebwizardry]: Synchronising advancements for Akls
+[23:20:35] [Server thread/INFO] [ebwizardry]: Synchronising advancements for Akls
+[23:20:41] [Server thread/INFO] []: Logged 
+[23:20:41] [Server thread/INFO] []: 16
+[23:20:41] [Server thread/INFO] []:  towers so far for world 
+[23:20:41] [Server thread/INFO] []: /workspaces/EPICILand/servidor_minecraft/world
+[23:20:41] [Server thread/INFO] []: , accepted new site coords [
+[23:20:41] [Server thread/INFO] []: -624
+[23:20:41] [Server thread/INFO] []: ,
+[23:20:41] [Server thread/INFO] []: 144
+[23:20:41] [Server thread/INFO] []: ], mindist 
+[23:20:41] [Server thread/INFO] []: 200.479425
+[23:20:41] [Server thread/DEBUG] [FML]: Battle Towers loaded a new chunk [-39, 8] in dimension 0 (overworld) while populating chunk [-39, 9], causing cascading worldgen lag.
+[23:20:41] [Server thread/DEBUG] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[23:20:41] [Server thread/DEBUG] [FML]: Battle Towers loaded a new chunk [-40, 8] in dimension 0 (overworld) while populating chunk [-39, 9], causing cascading worldgen lag.
+[23:20:41] [Server thread/DEBUG] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[23:20:41] [Server thread/INFO] []: Dimension 0 Battle Tower type CobbleStone spawned at [ -624 | 144 ], underground: false
+[23:21:07] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[23:21:07] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[23:21:21] [Server thread/DEBUG] [FML]: Roguelike Dungeons loaded a new chunk [-44, 7] in dimension 0 (overworld) while populating chunk [-43, 5], causing cascading worldgen lag.
+[23:21:21] [Server thread/DEBUG] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[23:21:43] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[23:21:43] [Server thread/INFO] [antiqueatlas]: Saving local markers data to NBT
+[23:22:08] [Server thread/DEBUG] [FML]: LLibrary loaded a new chunk [-47, 4] in dimension 0 (overworld) while populating chunk [-45, 5], causing cascading worldgen lag.
+[23:22:08] [Server thread/DEBUG] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[23:22:08] [Server thread/DEBUG] [FML]: LLibrary loaded a new chunk [-45, 4] in dimension 0 (overworld) while populating chunk [-45, 5], causing cascading worldgen lag.
+[23:22:08] [Server thread/DEBUG] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[23:22:08] [Server thread/DEBUG] [FML]: LLibrary loaded a new chunk [-46, 4] in dimension 0 (overworld) while populating chunk [-45, 5], causing cascading worldgen lag.
+[23:22:08] [Server thread/DEBUG] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[23:22:08] [Server thread/INFO] []: Logged 
+[23:22:08] [Server thread/INFO] []: 17
+[23:22:08] [Server thread/INFO] []:  towers so far for world 
+[23:22:08] [Server thread/INFO] []: /workspaces/EPICILand/servidor_minecraft/world
+[23:22:08] [Server thread/INFO] []: , accepted new site coords [
+[23:22:08] [Server thread/INFO] []: -720
+[23:22:08] [Server thread/INFO] []: ,
+[23:22:08] [Server thread/INFO] []: -32
+[23:22:08] [Server thread/INFO] []: ], mindist 
+[23:22:08] [Server thread/INFO] []: 200.479425
+[23:22:08] [Server thread/DEBUG] [FML]: Battle Towers loaded a new chunk [-46, -3] in dimension 0 (overworld) while populating chunk [-45, -2], causing cascading worldgen lag.
+[23:22:08] [Server thread/DEBUG] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[23:22:08] [Server thread/INFO] []: Tower Site [
+[23:22:08] [Server thread/INFO] []: -720
+[23:22:08] [Server thread/INFO] []: |
+[23:22:08] [Server thread/INFO] []: -32
+[23:22:08] [Server thread/INFO] []: ] rejected: 
+[23:22:08] [Server thread/INFO] []: Depth check - Banned Block or hole, Depth: 1 ID: Block{minecraft:lava}
+[23:22:10] [Server thread/INFO] []: Logged 
+[23:22:10] [Server thread/INFO] []: 17
+[23:22:10] [Server thread/INFO] []:  towers so far for world 
+[23:22:10] [Server thread/INFO] []: /workspaces/EPICILand/servidor_minecraft/world
+[23:22:10] [Server thread/INFO] []: , accepted new site coords [
+[23:22:10] [Server thread/INFO] []: -672
+[23:22:10] [Server thread/INFO] []: ,
+[23:22:10] [Server thread/INFO] []: -48
+[23:22:10] [Server thread/INFO] []: ], mindist 
+[23:22:10] [Server thread/INFO] []: 197.909070
+[23:22:10] [Server thread/DEBUG] [FML]: Battle Towers loaded a new chunk [-43, -3] in dimension 0 (overworld) while populating chunk [-42, -3], causing cascading worldgen lag.
+[23:22:10] [Server thread/DEBUG] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[23:22:10] [Server thread/DEBUG] [FML]: Battle Towers loaded a new chunk [-43, -4] in dimension 0 (overworld) while populating chunk [-42, -3], causing cascading worldgen lag.
+[23:22:10] [Server thread/DEBUG] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[23:22:10] [Server thread/INFO] []: Dimension 0 Battle Tower type CobbleStone spawned at [ -672 | -48 ], underground: false
+[23:22:30] [Server thread/DEBUG] [FML]: Millenaire loaded a new chunk [-26, -4] in dimension 0 (overworld) while populating chunk [-32, -6], causing cascading worldgen lag.
+[23:22:30] [Server thread/DEBUG] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[23:22:30] [Server thread/DEBUG] [FML]: Millenaire loaded a new chunk [-25, -3] in dimension 0 (overworld) while populating chunk [-32, -6], causing cascading worldgen lag.
+[23:22:30] [Server thread/DEBUG] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[23:22:30] [Server thread/DEBUG] [FML]: Millenaire loaded a new chunk [-26, -3] in dimension 0 (overworld) while populating chunk [-32, -6], causing cascading worldgen lag.
+[23:22:30] [Server thread/DEBUG] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[23:22:30] [Server thread/DEBUG] [FML]: Millenaire loaded a new chunk [-25, -2] in dimension 0 (overworld) while populating chunk [-32, -6], causing cascading worldgen lag.
+[23:22:30] [Server thread/DEBUG] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[23:22:30] [Server thread/DEBUG] [FML]: Millenaire loaded a new chunk [-26, -2] in dimension 0 (overworld) while populating chunk [-32, -6], causing cascading worldgen lag.
+[23:22:30] [Server thread/DEBUG] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[23:22:30] [Server thread/DEBUG] [FML]: Millenaire loaded a new chunk [-25, -1] in dimension 0 (overworld) while populating chunk [-32, -6], causing cascading worldgen lag.
+[23:22:30] [Server thread/DEBUG] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[23:22:30] [Server thread/DEBUG] [FML]: Millenaire loaded a new chunk [-26, -1] in dimension 0 (overworld) while populating chunk [-32, -6], causing cascading worldgen lag.
+[23:22:30] [Server thread/DEBUG] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[23:22:30] [Server thread/DEBUG] [FML]: Millenaire loaded a new chunk [-25, 0] in dimension 0 (overworld) while populating chunk [-32, -6], causing cascading worldgen lag.
+[23:22:30] [Server thread/DEBUG] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[23:22:30] [Server thread/DEBUG] [FML]: Millenaire loaded a new chunk [-26, 0] in dimension 0 (overworld) while populating chunk [-32, -6], causing cascading worldgen lag.
+[23:22:30] [Server thread/DEBUG] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[23:22:30] [Server thread/DEBUG] [FML]: Millenaire loaded a new chunk [-25, 2] in dimension 0 (overworld) while populating chunk [-32, -6], causing cascading worldgen lag.
+[23:22:30] [Server thread/DEBUG] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[23:22:30] [Server thread/DEBUG] [FML]: Millenaire loaded a new chunk [-26, 2] in dimension 0 (overworld) while populating chunk [-32, -6], causing cascading worldgen lag.
+[23:22:30] [Server thread/DEBUG] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[23:22:30] [Server thread/DEBUG] [FML]: Millenaire loaded a new chunk [-25, 1] in dimension 0 (overworld) while populating chunk [-32, -6], causing cascading worldgen lag.
+[23:22:30] [Server thread/DEBUG] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[23:22:30] [Server thread/DEBUG] [FML]: Millenaire loaded a new chunk [-26, 1] in dimension 0 (overworld) while populating chunk [-32, -6], causing cascading worldgen lag.
+[23:22:30] [Server thread/DEBUG] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[23:22:30] [Server thread/DEBUG] [FML]: Millenaire loaded a new chunk [-25, 6] in dimension 0 (overworld) while populating chunk [-32, -6], causing cascading worldgen lag.
+[23:22:30] [Server thread/DEBUG] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[23:22:30] [Server thread/DEBUG] [FML]: Millenaire loaded a new chunk [-26, 6] in dimension 0 (overworld) while populating chunk [-32, -6], causing cascading worldgen lag.
+[23:22:30] [Server thread/DEBUG] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[23:22:30] [Server thread/DEBUG] [FML]: Millenaire loaded a new chunk [-25, 5] in dimension 0 (overworld) while populating chunk [-32, -6], causing cascading worldgen lag.
+[23:22:30] [Server thread/DEBUG] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[23:22:30] [Server thread/DEBUG] [FML]: Millenaire loaded a new chunk [-26, 5] in dimension 0 (overworld) while populating chunk [-32, -6], causing cascading worldgen lag.
+[23:22:30] [Server thread/DEBUG] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[23:22:30] [Server thread/DEBUG] [FML]: Millenaire loaded a new chunk [-25, -4] in dimension 0 (overworld) while populating chunk [-32, -6], causing cascading worldgen lag.
+[23:22:30] [Server thread/DEBUG] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[23:22:30] [Server thread/DEBUG] [FML]: Millenaire loaded a new chunk [-24, -4] in dimension 0 (overworld) while populating chunk [-32, -6], causing cascading worldgen lag.
+[23:22:30] [Server thread/DEBUG] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[23:22:30] [Server thread/DEBUG] [FML]: Millenaire loaded a new chunk [-23, -4] in dimension 0 (overworld) while populating chunk [-32, -6], causing cascading worldgen lag.
+[23:22:30] [Server thread/DEBUG] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[23:22:30] [Server thread/DEBUG] [FML]: Millenaire loaded a new chunk [-22, -4] in dimension 0 (overworld) while populating chunk [-32, -6], causing cascading worldgen lag.
+[23:22:30] [Server thread/DEBUG] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[23:22:31] [Server thread/INFO] [antiqueatlas]: Created new marker #11"integration.antiqueatlas.marker.ebwizardry.shrine"@(-733, -83)
+[23:22:33] [Server thread/INFO] []: Logged 
+[23:22:33] [Server thread/INFO] []: 18
+[23:22:33] [Server thread/INFO] []:  towers so far for world 
+[23:22:33] [Server thread/INFO] []: /workspaces/EPICILand/servidor_minecraft/world
+[23:22:33] [Server thread/INFO] []: , accepted new site coords [
+[23:22:33] [Server thread/INFO] []: -816
+[23:22:33] [Server thread/INFO] []: ,
+[23:22:33] [Server thread/INFO] []: 192
+[23:22:33] [Server thread/INFO] []: ], mindist 
+[23:22:33] [Server thread/INFO] []: 197.909070
+[23:22:33] [Server thread/DEBUG] [FML]: Battle Towers loaded a new chunk [-52, 11] in dimension 0 (overworld) while populating chunk [-51, 12], causing cascading worldgen lag.
+[23:22:33] [Server thread/DEBUG] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[23:22:33] [Server thread/INFO] []: Dimension 0 Battle Tower type CobbleStone spawned at [ -816 | 192 ], underground: false
+[23:23:16] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: tobitho has made the advancement [Hot Stuff]
+[23:23:16] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho

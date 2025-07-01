@@ -44,6 +44,6 @@ random_uid=8238887708439416832
 advancements_creative=explorer
 
 //Advancement completed for anonymous statistics
-advancements_survival=
+advancements_survival=explorer
 
-validation=346190873
+validation=346190917
