@@ -29517,3 +29517,154 @@ Waystones: Requires version 4.1.0 but mod is not found on client.
 [22:54:14] [Server thread/INFO] [antiqueatlas]: Sent markers data #-1 to player Akls
 [22:54:14] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Akls[/127.99.198.158:36819] logged in with entity id 1101 at ([world]-231.81347712275118, 78.0, 234.0166343053298)
 [22:54:14] [Netty Epoll Server IO #0/DEBUG] [FML]: FMLHandshakeServerState: $HandshakeAck:{5}->FMLHandshakeServerState$5:DONE
+[22:54:50] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Akls lost connection: Disconnected
+[22:54:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Akls left the game
+[22:56:34] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[22:57:33] [User Authenticator #4/INFO] [net.minecraft.server.network.NetHandlerLoginServer]: UUID of player tobitho is 6ea83b7d-70e6-3206-a92c-368cc878e0ef
+[22:57:33] [Server thread/TRACE] [FML]: Handshake channel activating
+[22:57:33] [Server thread/DEBUG] [FML]: FMLHandshakeServerState: null->FMLHandshakeServerState$1:START
+[22:57:33] [Server thread/DEBUG] [FML]:   Next: HELLO
+[22:57:33] [Netty Epoll Server IO #0/DEBUG] [FML]: FMLHandshakeServerState: $ClientHello->FMLHandshakeServerState$2:HELLO
+[22:57:33] [Netty Epoll Server IO #0/DEBUG] [FML]: FMLHandshakeServerState: $ModList:45 mods->FMLHandshakeServerState$2:HELLO
+[22:57:33] [Netty Epoll Server IO #0/INFO] [FML]: Client attempting to join with 45 mods : minecraft@1.12.2,levelup2@${version},mowziesmobs@1.5.8,dldungeonsjbg@1.14.14,ftbquests@1.8.1,biomesoplenty@7.0.1.2445,baubles@1.5.2,creativecoredummy@1.0.0,creativecore@1.10.0,itemfilters@1.0.4.2,battletowers@1.6.5,ebwizardry@4.3.14,mmorpg@1.9.6,jei@4.16.1.1013,rustic@1.2.0,roguelike@1.8.0,patchouli@1.0-23.6,spartanshields@1.5.5,waystones@4.1.0,mcp@9.42,epicfight@1.12.2-2.2.8,FML@8.0.99.99,structurize@1.12.2-0.10.277-RELEASE,customnpcs@1.12,llibrary@1.7.20,minecolonies@1.12.2-0.11.841-ALPHA,spartanweaponry@1.6.0,appleskin@1.0.14,millenaire@Millénaire 8.1.2,roots@1.12.2-3.1.9.2,antiqueatlasoverlay@1.2,iceandfire@1.9.1,ftblib@5.4.7.0,tlauncher_custom_cape_skin@1.4,guideapi@1.12-2.1.8-63,mysticalworld@1.12.2-1.11.0,firstaid@1.6.22,forge@14.23.5.2860,bloodmagic@1.12.2-2.4.3-105,mysticallib@1.12.2-1.13.0,codechickenlib@3.2.3.358,playerrevive@1.0,orelib@3.6.0.1,dsurround@@VERSION@,antiqueatlas@4.6.3
+[22:57:33] [Netty Epoll Server IO #0/INFO] [FML]: Forge Mod Loader has successfully loaded [mohist, dynmap] modCLIENT
+[22:57:33] [Netty Epoll Server IO #0/DEBUG] [FML]:   Next: WAITINGCACK
+[22:57:33] [Netty Epoll Server IO #0/DEBUG] [FML]: FMLHandshakeServerState: $HandshakeAck:{2}->FMLHandshakeServerState$3:WAITINGCACK
+[22:57:33] [Netty Epoll Server IO #0/DEBUG] [FML]:   Next: COMPLETE
+[22:57:33] [Netty Epoll Server IO #0/INFO] [CodeChickenLib-ConfigSync]: Skipping config sync, No mods have registered a syncable config.
+[22:57:34] [Netty Epoll Server IO #0/DEBUG] [FML]: FMLHandshakeServerState: $HandshakeAck:{3}->FMLHandshakeServerState$4:COMPLETE
+[22:57:34] [Netty Epoll Server IO #0/DEBUG] [FML]:   Next: DONE
+[22:57:34] [Netty Epoll Server IO #0/DEBUG] [FML]: FMLHandshakeServerState: $HandshakeAck:{4}->FMLHandshakeServerState$5:DONE
+[22:57:34] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[22:57:34] [Server thread/INFO] [dsurround]: Player [tobitho] connected with Dynamic Surroundings @VERSION@
+[22:57:34] [Server thread/INFO] [ebwizardry]: Sending global donation perk settings to tobitho
+[22:57:34] [Server thread/DEBUG] [firstaid]: Sending damage model to tobitho
+[22:57:34] [Server thread/INFO] [ebwizardry]: Synchronising spell glyph data for tobitho
+[22:57:34] [Server thread/INFO] [ebwizardry]: Synchronising spell emitters for tobitho
+[22:57:34] [Server thread/INFO] [ebwizardry]: Synchronising config settings for tobitho
+[22:57:34] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[22:57:34] [Netty Epoll Server IO #0/DEBUG] [FML]: FMLHandshakeServerState: $HandshakeAck:{5}->FMLHandshakeServerState$5:DONE
+[22:57:34] [Server thread/INFO] [antiqueatlas]: Sent custom biome data to player tobitho
+[22:57:34] [Server thread/INFO] [antiqueatlas]: Sent markers data #-1 to player tobitho
+[22:57:34] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: tobitho[/127.209.19.156:43215] logged in with entity id 1272 at ([world]-238.5, 68.0, 254.5)
+[22:57:35] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[22:57:35] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: tobitho has made the advancement [Ice and Fire]
+[22:57:35] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[22:57:35] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[22:57:54] [User Authenticator #5/INFO] [net.minecraft.server.network.NetHandlerLoginServer]: UUID of player Akls is 49a8f3a9-37ad-3f72-9c9f-458ae7bcdb81
+[22:57:54] [Server thread/TRACE] [FML]: Handshake channel activating
+[22:57:54] [Server thread/DEBUG] [FML]: FMLHandshakeServerState: null->FMLHandshakeServerState$1:START
+[22:57:54] [Server thread/DEBUG] [FML]:   Next: HELLO
+[22:57:54] [Netty Epoll Server IO #2/DEBUG] [FML]: FMLHandshakeServerState: $ClientHello->FMLHandshakeServerState$2:HELLO
+[22:57:54] [Netty Epoll Server IO #2/DEBUG] [FML]: FMLHandshakeServerState: $ModList:44 mods->FMLHandshakeServerState$2:HELLO
+[22:57:54] [Netty Epoll Server IO #2/INFO] [FML]: Client attempting to join with 44 mods : minecraft@1.12.2,levelup2@${version},mowziesmobs@1.5.8,dldungeonsjbg@1.14.14,ftbquests@1.8.1,biomesoplenty@7.0.1.2445,baubles@1.5.2,creativecoredummy@1.0.0,creativecore@1.10.0,itemfilters@1.0.4.2,battletowers@1.6.5,ebwizardry@4.3.14,mmorpg@1.9.6,jei@4.16.1.1013,rustic@1.2.0,roguelike@1.8.0,patchouli@1.0-23.6,spartanshields@1.5.5,waystones@4.1.0,mcp@9.42,epicfight@1.12.2-2.2.8,FML@8.0.99.99,structurize@1.12.2-0.10.277-RELEASE,customnpcs@1.12,llibrary@1.7.20,minecolonies@1.12.2-0.11.841-ALPHA,spartanweaponry@1.6.0,appleskin@1.0.14,millenaire@Millénaire 8.1.2,roots@1.12.2-3.1.9.2,antiqueatlasoverlay@1.2,iceandfire@1.9.1,ftblib@5.4.7.0,guideapi@1.12-2.1.8-63,mysticalworld@1.12.2-1.11.0,firstaid@1.6.22,forge@14.23.5.2860,bloodmagic@1.12.2-2.4.3-105,mysticallib@1.12.2-1.13.0,codechickenlib@3.2.3.358,playerrevive@1.0,orelib@3.6.0.1,dsurround@@VERSION@,antiqueatlas@4.6.3
+[22:57:54] [Netty Epoll Server IO #2/INFO] [FML]: Forge Mod Loader has successfully loaded [mohist, dynmap] modCLIENT
+[22:57:54] [Netty Epoll Server IO #2/DEBUG] [FML]:   Next: WAITINGCACK
+[22:57:54] [Netty Epoll Server IO #2/DEBUG] [FML]: FMLHandshakeServerState: $HandshakeAck:{2}->FMLHandshakeServerState$3:WAITINGCACK
+[22:57:54] [Netty Epoll Server IO #2/DEBUG] [FML]:   Next: COMPLETE
+[22:57:54] [Netty Epoll Server IO #2/INFO] [CodeChickenLib-ConfigSync]: Skipping config sync, No mods have registered a syncable config.
+[22:57:56] [Netty Epoll Server IO #2/DEBUG] [FML]: FMLHandshakeServerState: $HandshakeAck:{3}->FMLHandshakeServerState$4:COMPLETE
+[22:57:56] [Netty Epoll Server IO #2/DEBUG] [FML]:   Next: DONE
+[22:57:56] [Netty Epoll Server IO #2/DEBUG] [FML]: FMLHandshakeServerState: $HandshakeAck:{4}->FMLHandshakeServerState$5:DONE
+[22:57:56] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[22:57:56] [Server thread/INFO] [dsurround]: Player [Akls] connected with Dynamic Surroundings @VERSION@
+[22:57:56] [Server thread/INFO] [ebwizardry]: Sending global donation perk settings to Akls
+[22:57:56] [Server thread/DEBUG] [firstaid]: Sending damage model to Akls
+[22:57:56] [Server thread/INFO] [ebwizardry]: Synchronising spell glyph data for Akls
+[22:57:56] [Server thread/INFO] [ebwizardry]: Synchronising spell emitters for Akls
+[22:57:56] [Server thread/INFO] [ebwizardry]: Synchronising config settings for Akls
+[22:57:56] [Server thread/INFO] [ebwizardry]: Synchronising advancements for Akls
+[22:57:56] [Server thread/INFO] [antiqueatlas]: Sent custom biome data to player Akls
+[22:57:56] [Server thread/INFO] [antiqueatlas]: Sent markers data #-1 to player Akls
+[22:57:56] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Akls[/127.99.198.158:37077] logged in with entity id 1521 at ([world]-231.81347712275118, 78.0, 234.0166343053298)
+[22:57:56] [Netty Epoll Server IO #2/DEBUG] [FML]: FMLHandshakeServerState: $HandshakeAck:{5}->FMLHandshakeServerState$5:DONE
+[22:58:38] [Server thread/INFO] [ebwizardry]: Synchronising advancements for Akls
+[22:59:17] [Server thread/INFO] [ebwizardry]: Synchronising advancements for Akls
+[22:59:31] [Async Chat Thread - 6/INFO] []: <Akls> help me
+[23:00:08] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Akls went up in flames
+[23:00:10] [Server thread/INFO] [ebwizardry]: Sending global donation perk settings to Akls
+[23:00:56] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Akls issued server command: /tpa tobitho
+[23:00:59] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[23:01:02] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Akls issued server command: /tpa
+[23:01:12] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Akls issued server command: /tpa
+[23:01:18] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Akls issued server command: /tp tobitho
+[23:01:18] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Akls: Teleported Akls to tobitho]
+[23:01:35] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[23:01:38] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[23:01:38] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[23:01:38] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[23:01:38] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[23:01:38] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[23:01:38] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[23:01:38] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[23:01:38] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[23:01:38] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[23:01:38] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[23:01:38] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[23:01:38] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[23:01:38] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[23:01:38] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[23:01:38] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[23:01:38] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[23:01:41] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[23:01:42] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[23:01:42] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[23:01:42] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[23:01:42] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[23:01:42] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[23:01:42] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[23:01:57] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[23:01:57] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[23:01:57] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[23:01:57] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: tobitho has made the advancement [Stone Age]
+[23:01:57] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[23:01:57] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[23:01:57] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[23:01:57] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[23:01:57] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[23:01:57] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[23:01:57] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[23:01:57] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[23:03:09] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: tobitho has made the advancement [Getting an Upgrade]
+[23:03:09] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[23:03:09] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[23:03:45] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[23:03:56] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: tobitho has made the advancement [Untrue Pacifist]
+[23:03:56] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[23:03:56] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[23:03:56] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[23:04:06] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[23:04:06] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[23:04:06] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[23:04:06] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[23:04:06] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[23:04:06] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[23:04:06] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[23:04:06] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[23:04:06] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[23:04:06] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[23:04:06] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[23:04:06] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[23:04:06] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[23:04:06] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[23:04:06] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[23:04:06] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[23:04:06] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[23:04:06] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[23:04:06] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[23:04:06] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[23:04:06] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[23:04:06] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[23:04:25] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[23:05:02] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Akls lost connection: Disconnected
+[23:05:02] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Akls left the game
+[23:05:09] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[23:05:09] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[23:05:09] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[23:05:09] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[23:05:09] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[23:05:23] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[23:05:23] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[23:05:23] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[23:05:23] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
+[23:05:23] [Server thread/INFO] [ebwizardry]: Synchronising advancements for tobitho
