@@ -14,14 +14,17 @@
 -28 43 80 -20 60 106 shipwreck.tml
 5 49 184 41 73 195 SunkenShip-v2.tml
 10 45 3 46 61 14 SunkenShip-v3.tml
+29 101 531 41 114 547 Barn-intact.tml
 72 65 360 79 69 367 TinyFarmField.tml
 106 102 489 116 107 499 RuinedSmallFountainDiagonal.tml
 131 80 164 138 89 171 Outcrop.tml
 163 68 285 178 76 294 Archway.tml
 170 79 385 174 81 389 EmeraldOreOutcrop.tml
+194 101 507 206 106 519 AncientFountain.tml
 241 50 88 249 67 114 shipwreck.tml
 315 100 368 320 106 373 CaveSpiderBurrow.tml
 317 69 280 325 77 291 MinersHut.tml
 326 45 -21 337 69 15 SunkenShip-v2.tml
 349 71 118 353 73 122 EmeraldOreOutcrop.tml
+353 101 524 360 110 531 Outcrop.tml
 354 70 202 357 74 204 SkeletonHeadStatue.tml

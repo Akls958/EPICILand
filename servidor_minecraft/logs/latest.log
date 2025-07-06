@@ -228,3 +228,45 @@
 [02:07:15] [Server thread/INFO] [antiqueatlas]: Sending dimension #0
 [02:07:15] [Server thread/INFO] [antiqueatlas]: Sent dimension #0 (0 tiles)
 [02:07:15] [Server thread/INFO] [antiqueatlas]: Sent Atlas #1 data to player Akls
+[02:07:36] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[02:07:36] [Server thread/INFO] [antiqueatlas]: Saving local markers data to NBT
+[02:07:47] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Akls issued server command: /gamemode survival
+[02:07:47] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Akls: Set own game mode to Survival Mode]
+[02:10:03] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Akls issued server command: /give Akls minecraft:stone_pickaxe 1 0
+[02:10:03] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Akls: Given [Stone Pickaxe] * 1 to Akls]
+[02:10:09] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Akls issued server command: /give Akls minecraft:iron_pickaxe 1 0
+[02:10:09] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Akls: Given [Iron Pickaxe] * 1 to Akls]
+[02:10:23] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Akls issued server command: /give Akls minecraft:iron_ingot 1 0
+[02:10:23] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Akls: Given [Iron Ingot] * 1 to Akls]
+[02:10:26] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Akls issued server command: /give Akls cqrepoured:cqr_zombie_spawn_egg_3 1 0
+[02:10:26] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Akls: Given [Zombie (Iron Sword, Air, IRON)] * 1 to Akls]
+[02:10:26] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Akls issued server command: /give Akls cqrepoured:cqr_zombie_spawn_egg_3 1 0
+[02:10:26] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Akls: Given [Zombie (Iron Sword, Air, IRON)] * 1 to Akls]
+[02:10:35] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Akls issued server command: /give Akls minecraft:iron_ingot 64 0
+[02:10:35] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Akls: Given [Iron Ingot] * 64 to Akls]
+[02:10:35] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Akls issued server command: /give Akls minecraft:iron_ingot 64 0
+[02:10:35] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Akls: Given [Iron Ingot] * 64 to Akls]
+[02:10:44] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Akls issued server command: /give Akls dungeontactics:iron_cutlass 1 0
+[02:10:44] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Akls: Given [Iron Cutlass] * 1 to Akls]
+[02:10:56] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Akls issued server command: /give Akls minecraft:iron_axe 1 0
+[02:10:56] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Akls: Given [Iron Axe] * 1 to Akls]
+[02:11:15] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Akls issued server command: /give Akls cqrepoured:shield_goblin 1 0
+[02:11:15] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Akls: Given [Goblin Shield] * 1 to Akls]
+[02:11:33] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Akls issued server command: /give Akls iceandfire:deathworm_red_helmet 1 0
+[02:11:33] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Akls: Given [Red Death Worm Chitin Helmet] * 1 to Akls]
+[02:11:34] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Akls issued server command: /give Akls iceandfire:deathworm_red_chestplate 1 0
+[02:11:34] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Akls: Given [Red Death Worm Chitin Chestplate] * 1 to Akls]
+[02:11:39] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Akls issued server command: /give Akls iceandfire:deathworm_red_leggings 1 0
+[02:11:39] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Akls: Given [Red Death Worm Chitin Leggings] * 1 to Akls]
+[02:11:40] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Akls issued server command: /give Akls iceandfire:deathworm_red_boots 1 0
+[02:11:40] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Akls: Given [Red Death Worm Chitin Boots] * 1 to Akls]
+[02:12:32] [Server thread/DEBUG] [Scaling Health]: heart drop rate for Zombie is 0.01
+[02:12:36] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[02:12:46] [Server thread/DEBUG] [Scaling Health]: heart drop rate for Zombie is 0.01
+[02:13:00] [Server thread/DEBUG] [Scaling Health]: heart drop rate for Haunted Tool is 0.01
+[02:13:15] [Server thread/WARN] [net.minecraft.world.storage.loot.LootTableManager]: Couldn't find resource table dungeontactics:/loot_bags/arbour_bag
+[02:13:25] [Server thread/INFO] [antiqueatlas]: Created new marker #1"gui.antiqueatlas.marker.tomb Akls"@(233, 418)
+[02:13:25] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Akls was slain by Skeleton
+[02:13:26] [Server thread/DEBUG] [twilightforest]: Player Akls respawned and received items held in storage
+[02:13:36] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Akls lost connection: Flying is not enabled on this server!
+[02:13:36] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Akls left the game
