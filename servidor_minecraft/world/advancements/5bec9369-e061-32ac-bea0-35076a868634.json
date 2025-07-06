@@ -1,0 +1,32 @@
+{
+  "dungeontactics:dungeoneering/born_survivor": {
+    "criteria": {
+      "stab": "2025-07-06 02:36:06 +0000"
+    },
+    "done": false
+  },
+  "iceandfire:iceandfire/root": {
+    "criteria": {
+      "tick": "2025-07-06 02:36:06 +0000"
+    },
+    "done": true
+  },
+  "mowziesmobs:root": {
+    "criteria": {
+      "custom_test_name": "2025-07-06 02:36:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "forest": "2025-07-06 02:36:06 +0000"
+    },
+    "done": false
+  },
+  "cqrepoured:cqr/root": {
+    "criteria": {
+      "tick": "2025-07-06 02:36:06 +0000"
+    },
+    "done": true
+  }
+}
