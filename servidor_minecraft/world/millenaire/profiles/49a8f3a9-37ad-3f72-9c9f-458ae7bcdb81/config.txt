@@ -1,3 +1,0 @@
-player_name=Akls
-donation_mode=false
-village_diplomacy=-457/71/-36,5

@@ -1,5 +1,0 @@
-player_name=Logean
-donation_mode=false
-culture_reputation=indian,-32
-village_reputations=-457/71/-36,-328
-village_diplomacy=-457/71/-36,5
