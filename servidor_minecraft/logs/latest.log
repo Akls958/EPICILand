@@ -167,3 +167,27 @@
 [01:46:30] [Server thread/DEBUG] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
 [01:46:30] [Server thread/DEBUG] [FML]: Ruins Mod loaded a new chunk [19, -3] in dimension 0 (overworld) while populating chunk [20, -2], causing cascading worldgen lag.
 [01:46:30] [Server thread/DEBUG] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[01:47:35] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[01:48:14] [Server thread/DEBUG] [Scaling Health]: heart drop rate for Pig is 0.001
+[01:48:55] [Server thread/DEBUG] [FML]: Ruins Mod loaded a new chunk [-7, 22] in dimension 0 (overworld) while populating chunk [-6, 22], causing cascading worldgen lag.
+[01:48:55] [Server thread/DEBUG] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[01:49:50] [Server thread/DEBUG] [Scaling Health]: heart drop rate for Pig is 0.001
+[01:50:01] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Akls has made the advancement [Rotten to the Core]
+[01:50:03] [Server thread/DEBUG] [Scaling Health]: heart drop rate for Chicken is 0.001
+[01:50:25] [Server thread/DEBUG] [Scaling Health]: heart drop rate for Skeleton is 0.01
+[01:50:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Akls was slain by Skeleton Warrior
+[01:50:52] [Server thread/DEBUG] [twilightforest]: Player Akls respawned and received items held in storage
+[01:51:39] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Akls issued server command: /gamemode creative
+[01:51:39] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Akls: Set own game mode to Creative Mode]
+[01:52:08] [Server thread/DEBUG] [Scaling Health]: heart drop rate for Pig is 0.001
+[01:52:35] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[01:53:18] [Server thread/INFO] [cqrepoured]: Generating dungeon StrongholdLinearDesert at BlockPos{x=100, y=63, z=266}
+[01:53:18] [Server thread/INFO] [cqrepoured]: Generated dungeon StrongholdLinearDesert at BlockPos{x=100, y=63, z=266}
+[01:53:18] [Server thread/DEBUG] [cqrepoured]: Total: 0 secs 649 millis
+[01:53:18] [Server thread/DEBUG] [cqrepoured]: Parts: 0 secs 115 millis
+[01:53:18] [Server thread/DEBUG] [cqrepoured]: Blocklight: 0 secs 136 millis
+[01:53:18] [Server thread/DEBUG] [cqrepoured]: SkylightMap: 0 secs 5 millis
+[01:53:18] [Server thread/DEBUG] [cqrepoured]: Skylight: 0 secs 156 millis
+[01:53:18] [Server thread/DEBUG] [cqrepoured]: RemovedBlocklight: 0 secs 135 millis
+[01:53:18] [Server thread/DEBUG] [cqrepoured]: Sync: 0 secs 16 millis
+[01:53:18] [Server thread/DEBUG] [cqrepoured]: Updates: 0 secs 69 millis
