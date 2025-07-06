@@ -11,6 +11,7 @@
 #
 -28 43 80 -20 60 106 shipwreck.tml
 5 49 184 41 73 195 SunkenShip-v2.tml
+10 45 3 46 61 14 SunkenShip-v3.tml
 72 65 360 79 69 367 TinyFarmField.tml
 131 80 164 138 89 171 Outcrop.tml
 163 68 285 178 76 294 Archway.tml
