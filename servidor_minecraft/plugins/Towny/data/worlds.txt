@@ -1,0 +1,4 @@
+DIM7
+world
+DIM1
+DIM-1

@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.99.198.158
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1751845579528
+  login: 1751844368099
+money: '0'
+last-account-name: Akls
+lastlocation:
+  world: 02e23640-f05d-412d-94c3-0908cfb28ed5
+  world-name: world
+  x: 1.5
+  y: 64.0
+  z: 257.5
+  yaw: 3.2649877071380615
+  pitch: 0.0
+logoutlocation:
+  world: 02e23640-f05d-412d-94c3-0908cfb28ed5
+  world-name: world
+  x: 10.59811121247095
+  y: 62.0
+  z: 288.97867296861943
+  yaw: 310.19976806640625
+  pitch: 29.549968719482422
