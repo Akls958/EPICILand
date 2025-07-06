@@ -152,3 +152,18 @@
 [01:35:46] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Akls[/127.99.198.158:43017] logged in with entity id 58276 at ([world]105.53864216273055, 70.66640726001334, 173.26186966054036)
 [01:35:46] [Netty Epoll Server IO #0/DEBUG] [FML]: FMLHandshakeServerState: $HandshakeAck:{5}->FMLHandshakeServerState$5:DONE
 [01:35:51] [Netty Epoll Server IO #0/DEBUG] [extraalchemy]: Valid configuration found (-17)
+[01:37:34] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[01:39:50] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Akls issued server command: /gamemode survival
+[01:39:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Akls: Set own game mode to Survival Mode]
+[01:41:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Akls has made the advancement [Stone Age]
+[01:42:18] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Akls has made the advancement [Getting an Upgrade]
+[01:42:34] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[01:44:12] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Akls has made the advancement [Acquire Hardware]
+[01:44:38] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Akls has made the advancement [Isn't It Iron Pick]
+[01:46:10] [Server thread/DEBUG] [Scaling Health]: heart drop rate for Brain Slime is 0.0016666666
+[01:46:30] [Server thread/DEBUG] [FML]: Ruins Mod loaded a new chunk [20, -2] in dimension 0 (overworld) while populating chunk [20, -1], causing cascading worldgen lag.
+[01:46:30] [Server thread/DEBUG] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[01:46:30] [Server thread/DEBUG] [FML]: Ruins Mod loaded a new chunk [19, -2] in dimension 0 (overworld) while populating chunk [20, -2], causing cascading worldgen lag.
+[01:46:30] [Server thread/DEBUG] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[01:46:30] [Server thread/DEBUG] [FML]: Ruins Mod loaded a new chunk [19, -3] in dimension 0 (overworld) while populating chunk [20, -2], causing cascading worldgen lag.
+[01:46:30] [Server thread/DEBUG] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
