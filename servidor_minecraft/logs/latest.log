@@ -270,3 +270,6 @@
 [02:13:26] [Server thread/DEBUG] [twilightforest]: Player Akls respawned and received items held in storage
 [02:13:36] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Akls lost connection: Flying is not enabled on this server!
 [02:13:36] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Akls left the game
+[02:17:36] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[02:17:36] [Server thread/INFO] [antiqueatlas]: Saving local markers data to NBT
+[02:22:36] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
