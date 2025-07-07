@@ -16,8 +16,8 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1751847498342
-  login: 1751847064109
+  logout: 1751848347508
+  login: 1751848140145
 money: '0'
 last-account-name: Akls
 lastlocation:
@@ -31,8 +31,8 @@ lastlocation:
 logoutlocation:
   world: 02e23640-f05d-412d-94c3-0908cfb28ed5
   world-name: world
-  x: -3.0104283844373745
-  y: 63.0
-  z: 283.68246264881253
-  yaw: -57.75000762939453
-  pitch: 27.599990844726562
+  x: -5.566114432708185
+  y: 64.0
+  z: 279.4170266340831
+  yaw: -244.9500274658203
+  pitch: 19.499990463256836
