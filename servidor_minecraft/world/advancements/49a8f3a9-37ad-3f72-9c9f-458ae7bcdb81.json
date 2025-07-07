@@ -1,13 +1,19 @@
 {
+  "dungeontactics:recipes/misc/convenience/planks_from_sticks": {
+    "criteria": {
+      "has_spruce": "2025-07-07 07:07:25 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/stone_shovel": {
     "criteria": {
       "has_cobblestone": "2025-07-07 01:51:17 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/spruce_planks": {
+  "minecraft:recipes/redstone/wooden_button": {
     "criteria": {
-      "has_log": "2025-07-07 01:55:30 +0000"
+      "has_planks": "2025-07-07 07:07:25 +0000"
     },
     "done": true
   },
@@ -23,15 +29,107 @@
     },
     "done": true
   },
-  "iceandfire:iceandfire/root": {
+  "minecraft:recipes/decorations/spruce_fence": {
     "criteria": {
-      "tick": "2025-07-07 01:45:52 +0000"
+      "has_planks": "2025-07-07 07:07:25 +0000"
     },
     "done": true
   },
   "minecraft:recipes/redstone/lever": {
     "criteria": {
       "has_cobblestone": "2025-07-07 01:51:17 +0000"
+    },
+    "done": true
+  },
+  "cqrepoured:cqr/root": {
+    "criteria": {
+      "tick": "2025-07-07 01:45:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_door": {
+    "criteria": {
+      "has_planks": "2025-07-07 07:07:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/mine_stone": {
+    "criteria": {
+      "get_stone": "2025-07-07 01:51:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cobblestone_slab": {
+    "criteria": {
+      "has_cobblestone": "2025-07-07 01:51:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/furnace": {
+    "criteria": {
+      "has_cobblestone": "2025-07-07 01:51:17 +0000"
+    },
+    "done": true
+  },
+  "dungeontactics:recipes/armour/stone_plate_armour": {
+    "criteria": {
+      "has_item": "2025-07-07 01:51:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_fence_gate": {
+    "criteria": {
+      "has_planks": "2025-07-07 07:07:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_stairs": {
+    "criteria": {
+      "has_planks": "2025-07-07 07:07:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_stairs": {
+    "criteria": {
+      "has_cobblestone": "2025-07-07 01:51:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "savanna": "2025-07-07 01:47:07 +0000",
+      "plains": "2025-07-07 01:45:52 +0000",
+      "roofed_forest": "2025-07-07 01:47:04 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "has_planks": "2025-07-07 07:07:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_planks": {
+    "criteria": {
+      "has_log": "2025-07-07 01:55:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/trapdoor": {
+    "criteria": {
+      "has_planks": "2025-07-07 07:07:25 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:iceandfire/root": {
+    "criteria": {
+      "tick": "2025-07-07 01:45:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2025-07-07 07:06:43 +0000"
     },
     "done": true
   },
@@ -53,9 +151,9 @@
     },
     "done": true
   },
-  "cqrepoured:cqr/root": {
+  "minecraft:recipes/building_blocks/spruce_wooden_slab": {
     "criteria": {
-      "tick": "2025-07-07 01:45:52 +0000"
+      "has_planks": "2025-07-07 07:07:25 +0000"
     },
     "done": true
   },
@@ -77,21 +175,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/wooden_pressure_plate": {
+    "criteria": {
+      "has_planks": "2025-07-07 07:07:25 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/stone_axe": {
     "criteria": {
       "has_cobblestone": "2025-07-07 01:51:17 +0000"
     },
     "done": true
   },
-  "minecraft:story/mine_stone": {
+  "minecraft:recipes/misc/stick": {
     "criteria": {
-      "get_stone": "2025-07-07 01:51:17 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/cobblestone_slab": {
-    "criteria": {
-      "has_cobblestone": "2025-07-07 01:51:17 +0000"
+      "has_planks": "2025-07-07 07:07:25 +0000"
     },
     "done": true
   },
@@ -101,30 +199,16 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/furnace": {
+  "minecraft:recipes/decorations/sign": {
     "criteria": {
-      "has_cobblestone": "2025-07-07 01:51:17 +0000"
+      "has_planks": "2025-07-07 07:07:25 +0000"
     },
     "done": true
   },
-  "dungeontactics:recipes/armour/stone_plate_armour": {
+  "dungeontactics:recipes/misc/barrel": {
     "criteria": {
-      "has_item": "2025-07-07 01:51:17 +0000"
+      "has_spruce": "2025-07-07 07:07:25 +0000"
     },
     "done": true
-  },
-  "minecraft:recipes/building_blocks/stone_stairs": {
-    "criteria": {
-      "has_cobblestone": "2025-07-07 01:51:17 +0000"
-    },
-    "done": true
-  },
-  "minecraft:adventure/adventuring_time": {
-    "criteria": {
-      "savanna": "2025-07-07 01:47:07 +0000",
-      "plains": "2025-07-07 01:45:52 +0000",
-      "roofed_forest": "2025-07-07 01:47:04 +0000"
-    },
-    "done": false
   }
 }
