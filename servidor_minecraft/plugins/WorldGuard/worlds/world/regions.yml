@@ -14,13 +14,25 @@ regions:
         min: {x: -282.0, y: 186.0, z: -377.0}
         max: {x: -179.0, y: 255.0, z: -275.0}
         members: {}
-        flags: {entry: deny, build: deny, pvp: deny, mob-spawning: deny}
+        flags:
+            entry: allow
+            spawn: {world: world, x: -228.54533981888864, y: 205.0, z: -326.29396294902347,
+                pitch: 90.0, yaw: 272.85184}
+            build: deny
+            passthrough: allow
+            pvp: deny
+            mob-spawning: deny
         owners: {}
         type: cuboid
         priority: 0
     __global__:
         members: {}
-        flags: {exit: allow, entry: allow}
+        flags:
+            entry: allow
+            exit: allow
+            spawn: {world: world, x: -228.54533981888864, y: 205.0, z: -326.29396294902347,
+                pitch: 86.399994, yaw: 270.75183}
+            passthrough: allow
         owners: {}
         type: global
         priority: 0

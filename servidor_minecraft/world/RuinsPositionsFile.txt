@@ -9,6 +9,8 @@
 # It should also prevent Ruins re-spawning under any circumstances. Areas registered in here block any overlapping new Ruins.
 # Empty lines and those prefixed by '#' are ignored by the parser. Don't save notes in here, file gets wiped upon flushing.
 #
+-540 79 -209 -533 82 -204 Melonfield.tml
+-488 62 -478 -486 66 -475 SkeletonHeadStatue.tml
 -457 66 -125 -444 75 -112 VolcanicVent.tml
 -379 64 -400 -376 68 -397 StoneGrill.tml
 -378 62 -250 -362 75 -238 Barn-intact.tml
@@ -16,16 +18,18 @@
 -334 68 -581 -327 71 -576 PumpkinField.tml
 -324 67 -147 -322 71 -144 SkeletonHeadStatue.tml
 -292 62 -52 -285 67 -47 ZombieHut.tml
--284 62 -284 -264 76 -264 Altar.tml
 -284 66 18 -277 75 25 Outcrop.tml
+-284 62 -284 -264 76 -264 Altar.tml
 -283 71 -491 -273 76 -481 RuinedSmallFountainDiagonal.tml
 -270 78 -406 -263 87 -399 Outcrop.tml
 -253 77 -177 -244 88 -166 ArrowTrapTomb.tml
 -211 65 144 -207 67 148 EmeraldOreOutcrop.tml
 -209 93 -54 -196 125 -41 OreSpire.tml
+-206 63 -647 -194 68 -635 AncientFountain.tml
 -171 62 -174 -164 66 -167 TinyFarmField.tml
 -168 71 -482 -166 75 -479 SkeletonHeadStatue.tml
 -136 62 70 -125 70 78 MinersHut.tml
+-129 66 -582 -116 75 -569 VolcanicVent.tml
 -110 64 -393 -101 72 -378 Archway.tml
 -92 62 -302 -87 68 -297 CaveSpiderBurrow.tml
 -78 91 -79 -73 94 -72 Melonfield.tml
