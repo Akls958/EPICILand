@@ -16,8 +16,8 @@
 -334 68 -581 -327 71 -576 PumpkinField.tml
 -324 67 -147 -322 71 -144 SkeletonHeadStatue.tml
 -292 62 -52 -285 67 -47 ZombieHut.tml
--284 66 18 -277 75 25 Outcrop.tml
 -284 62 -284 -264 76 -264 Altar.tml
+-284 66 18 -277 75 25 Outcrop.tml
 -283 71 -491 -273 76 -481 RuinedSmallFountainDiagonal.tml
 -270 78 -406 -263 87 -399 Outcrop.tml
 -253 77 -177 -244 88 -166 ArrowTrapTomb.tml

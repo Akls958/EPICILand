@@ -11,28 +11,28 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1751853440962
+  lastteleport: 1751876476103
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1751872591797
-  login: 1751871472329
+  logout: 1751877084649
+  login: 1751876112136
 money: '0'
 last-account-name: Akls
 lastlocation:
   world: f25f6ded-2329-4b04-8171-0f747c9a833c
   world-name: world
-  x: -227.6085626428787
-  y: 204.0
-  z: -330.977241490007
-  yaw: 293.5500183105469
-  pitch: 32.700008392333984
+  x: -227.84062342691365
+  y: 205.0
+  z: -326.4270875400689
+  yaw: 160.5018310546875
+  pitch: 49.19999694824219
 logoutlocation:
   world: f25f6ded-2329-4b04-8171-0f747c9a833c
   world-name: world
-  x: -238.69051756712247
-  y: 205.0
-  z: -314.21836225230754
-  yaw: 168.3004608154297
-  pitch: 64.8000259399414
+  x: -229.15944944229608
+  y: 204.0
+  z: -328.947645818488
+  yaw: 45.302005767822266
+  pitch: 16.799997329711914

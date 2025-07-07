@@ -761,6 +761,15 @@ twilightforest:molten_fierymetal
 twilightforest:molten_knightmetal
 twilightforest:fiery_essence
 bountiful:bountyboard
+customnpcs:npcredstoneblock
+customnpcs:npccarpentybench
+customnpcs:npcmailbox
+customnpcs:npcwaypoint
+customnpcs:npcborder
+customnpcs:npcscripted
+customnpcs:npcscripteddoor
+customnpcs:npcbuilderblock
+customnpcs:npccopyblock
 ichunutil:compact_porkchop
 mca:rose_gold_block
 mca:rose_gold_ore

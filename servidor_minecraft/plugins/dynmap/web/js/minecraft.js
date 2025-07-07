@@ -8,9 +8,9 @@ function createMinecraftHead(player,size,completed,failed) {
 	};
 	var faceimg;
 	if(size == 'body')
-		faceimg = 'faces/body/' + encodeURIComponent(player) + '.png';
+		faceimg = 'faces/body/' + player + '.png';
 	else
-		faceimg = 'faces/' + size + 'x' + size + '/' + encodeURIComponent(player) + '.png';
+		faceimg = 'faces/' + size + 'x' + size + '/' + player + '.png';
 	
 	faceImage.src = concatURL(dynmap.options.url.markers, faceimg);
 }

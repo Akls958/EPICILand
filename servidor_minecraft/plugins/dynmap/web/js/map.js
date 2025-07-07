@@ -25,7 +25,7 @@ function DynMap(options) {
 	if(me.checkForSavedURL())
 		return;
 	me.options = options;
-	$.getJSON(me.formatUrl("configuration", { timestamp: me.lasttimestamp }), function(configuration) {
+	$.getJSON(me.options.url.configuration, function(configuration) {
 		if(configuration.error == 'login-required') {
 			me.saveURL();
 			window.location = 'login.html';
@@ -47,7 +47,7 @@ DynMap.prototype = {
 	registeredTiles: [],
 	players: {},
 	
-	lasttimestamp: new Date().getTime(), /* Pseudorandom - prevent cached '?0' */
+	lasttimestamp: new Date().getUTCMilliseconds(), /* Pseudorandom - prevent cached '?0' */
 	reqid: 0,
     servertime: 0,
     serverday: false,
@@ -74,7 +74,7 @@ DynMap.prototype = {
 	formatUrl: function(name, options) {
 		var url = this.options.url[name];
 		$.each(options, function(n,v) {
-			url = url.replace("{" + n + "}", encodeURIComponent(v));
+			url = url.replace("{" + n + "}", v);
 		});
 		return url;
 	},
@@ -177,12 +177,34 @@ DynMap.prototype = {
 			zoomAnimation: true,
 			zoomControl: !me.nogui,
 			attributionControl: false,
-			crs: L.CRS.Simple,
+			crs: L.extend({}, L.CRS, {
+				code: 'simple',
+				projection: {
+						project: function(latlng) {
+							// Direct translation of lat -> x, lng -> y.
+							return new L.Point(latlng.lat, latlng.lng);
+						},
+						unproject: function(point) {
+							// Direct translation of x -> lat, y -> lng.
+							return new L.LatLng(point.x, point.y);
+						}
+					},
+				// a = 1; b = 2; c = 1; d = 0
+				// x = a * x + b; y = c * y + d
+				// End result is 1:1 values during transformation.
+				transformation: new L.Transformation(1, 0, 1, 0),
+				scale: function(zoom) {
+					// Equivalent to 2 raised to the power of zoom, but faster.
+					return (1 << zoom);
+				}
+			}),
+			continuousWorld: true,
 			worldCopyJump: false
 		});
 		window.map = map; // Placate Leaflet need for top-level 'map'....
 
 		map.on('zoomend', function() {
+			me.maptype.updateTileSize(me.map.getZoom());
 			$(me).trigger('zoomchanged');
 		});
 
@@ -256,26 +278,12 @@ DynMap.prototype = {
 					worldsadded[wname] = true;
 				}
 
-				var worldName = wname;
-				var mapName = mapindex;
-				if (worldName.endsWith('_nether') || (worldName == 'DIM-1')) {
-				   worldName = 'nether';
-				   mapName = (mapindex == 'nether') ? 'surface' : 'flat';
-				}
-				else if (worldName.endsWith('the_end') || (worldName == 'DIM1')) {
-				   worldName = 'the_end';
-				   mapName = (mapindex == 'the_end') ? 'surface' : 'flat';
-				}
-				else {
-				    worldName = 'world';
-				    mapName = [ 'surface', 'flat', 'biome', 'cave' ].includes(mapindex) ? mapindex : 'flat';
-				}
 				map.element = $('<li/>')
 					.addClass('map item')
 					.append($('<a/>')
 							.attr({ title: map.options.title, href: '#' })
 							.addClass('maptype')
-							.css({ backgroundImage: 'url(' + (map.options.icon || ('images/block_' + worldName + '_' + mapName + '.png')) + ')' })
+							.css({ backgroundImage: 'url(' + (map.options.icon || ('images/block_' + mapindex + '.png')) + ')' })
 							.text(map.options.title)
 					)
 					.click(function() {
@@ -569,7 +577,7 @@ DynMap.prototype = {
 	},
 	selectWorldAndPan: function(world, location, completed) {
 		var me = this;
-		if (typeof(world) === 'string') { world = me.worlds[world]; }
+		if (typeof(world) === 'String') { world = me.worlds[world]; }
 		if (me.world === world) {
 			if(location) {
 				var latlng = me.maptype.getProjection().fromLocationToLatLng(location);
@@ -592,6 +600,9 @@ DynMap.prototype = {
 			me.selectWorldAndPan(location.world, location, function() {
 				if(completed) completed();
 			});
+		} else {
+			var latlng = me.maptype.getProjection().fromLocationToLatLng(location);
+			me.panToLatLng(latlng, completed);
 		}
 	},
 	panToLayerPoint: function(point, completed) {
@@ -610,11 +621,6 @@ DynMap.prototype = {
 	},
 	update: function() {
 		var me = this;
-
-		if (document.visibilityState === "hidden") {
-		    setTimeout(function() { me.update(); }, me.options.updaterate);
-			return;
-		}
 
 		$(me).trigger('worldupdating');
 		$.getJSON(me.formatUrl('update', { world: me.world.name, timestamp: me.lasttimestamp, reqid: me.reqid }), function(update) {
@@ -692,7 +698,7 @@ DynMap.prototype = {
 
 						swtch(update.type, {
 							tile: function() {
-								me.maptype.updateNamedTile(update.name, update.timestamp);
+								me.onTileUpdated(update.name,update.timestamp);
 							},
 							playerjoin: function() {
 								$(me).trigger('playerjoin', [ update.playerName ]);
@@ -729,7 +735,7 @@ DynMap.prototype = {
 			}
 		);
 	},
-	getTileUrl: function(tileName) {
+	getTileUrl: function(tileName, always) {
 		var me = this;
 		var tile = me.registeredTiles[tileName];
 
@@ -738,6 +744,25 @@ DynMap.prototype = {
 			tile = this.registeredTiles[tileName] = url + escape(me.world.name + '/' + tileName);
 		}
 		return tile;
+	},
+	onTileUpdated: function(tileName,timestamp) {
+		var me = this;
+		var prev = this.registeredTiles[tileName];
+		var a_b = true;
+		if (prev && (prev.indexOf('upd=0') > 0))
+			a_b = false;
+		var url = me.options.url.tiles;
+		if (a_b) {
+			if (url.indexOf('?') > 0) {
+				this.registeredTiles[tileName] = url + escape(me.world.name + '/' + tileName) + '&upd=0';
+			}
+			else {
+				this.registeredTiles[tileName] = url + escape(me.world.name + '/' + tileName) + '?upd=0';
+			}
+		}
+		else
+			this.registeredTiles[tileName] = url + me.world.name + '/' + tileName;
+		me.maptype.updateNamedTile(tileName);
 	},
 	addPlayer: function(update) {
 		var me = this;
@@ -776,7 +801,8 @@ DynMap.prototype = {
 				if (me.followingPlayer !== player) {
 					me.followPlayer(null);
 				}
-				me.panToLocation(player.location);
+				if(player.location.world)
+					me.panToLocation(player.location);
 			});
 		player.menuname.data('sort', player.sort);
 		// Inject into playerlist alphabetically
