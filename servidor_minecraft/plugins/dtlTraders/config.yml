@@ -15,7 +15,7 @@ General:
       enabled: false
     Vault:
       enabled: true
-    Placeholderapi: true
+    Placeholderapi: false
 page-selectors:
   back:
     slots:

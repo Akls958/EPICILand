@@ -21,7 +21,6 @@ messages:
 commands:
   tab-complete: 0
   silent-commandblock-console: false
-  log: true
   spam-exclusions:
   - /skill
   replace-commands:
@@ -29,25 +28,13 @@ commands:
   - summon
   - testforblock
   - tellraw
+  log: true
 stats:
   disable-saving: false
   forced-stats: {}
 settings:
   save-user-cache-on-stop-only: false
   player-shuffle: 0
-  attribute:
-    maxHealth:
-      max: 2048.0
-    movementSpeed:
-      max: 2048.0
-    attackDamage:
-      max: 2048.0
-  moved-too-quickly-multiplier: 10.0
-  item-dirty-ticks: 20
-  timeout-time: 60
-  restart-on-crash: true
-  restart-script: ./start.sh
-  netty-threads: 4
   bungeecord: false
   late-bind: false
   sample-count: 12
@@ -55,6 +42,19 @@ settings:
   user-cache-size: 1000
   int-cache-limit: 1024
   moved-wrongly-threshold: 0.0625
+  moved-too-quickly-multiplier: 10.0
+  item-dirty-ticks: 20
+  timeout-time: 60
+  restart-on-crash: true
+  restart-script: ./start.sh
+  netty-threads: 4
+  attribute:
+    maxHealth:
+      max: 2048.0
+    movementSpeed:
+      max: 2048.0
+    attackDamage:
+      max: 2048.0
 advancements:
   disable-saving: false
   disabled:
@@ -105,6 +105,7 @@ world-settings:
       entity: 50
     squid-spawn-range:
       min: 45.0
+    hanging-tick-frequency: 100
     nerf-spawner-mobs: false
     zombie-aggressive-towards-villager: true
     merge-radius:
@@ -115,7 +116,6 @@ world-settings:
     enable-zombie-pigmen-portal-spawns: true
     wither-spawn-sound-radius: 0
     view-distance: 10
-    hanging-tick-frequency: 100
     entity-tracking-range:
       players: 48
       animals: 48
