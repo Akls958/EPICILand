@@ -1539,6 +1539,9 @@ levelup2:netherore
 levelup2:endore
 levelup2:respecbook
 levelup2:skillbook
+megaloot:skin_table
+megaloot:disenchanter
+megaloot:evolution_chamber
 megaloot:weaponcase_common
 megaloot:weaponcase_rare
 megaloot:weaponcase_epic
@@ -1561,9 +1564,6 @@ megaloot:upgradecharm_epic
 megaloot:rift_stone
 megaloot:infused_emerald_common
 megaloot:infused_emerald_rare
-megaloot:skin_table
-megaloot:disenchanter
-megaloot:evolution_chamber
 mowziesmobs:foliaath_seed
 mowziesmobs:test_structure
 mowziesmobs:mob_remover
