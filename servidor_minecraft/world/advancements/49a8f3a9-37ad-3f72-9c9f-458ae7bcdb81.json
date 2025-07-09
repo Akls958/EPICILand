@@ -35,6 +35,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "entered_water": "2025-07-07 09:46:17 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/lever": {
     "criteria": {
       "has_cobblestone": "2025-07-07 01:51:17 +0000"
@@ -97,10 +103,12 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "forest": "2025-07-07 09:49:14 +0000",
       "savanna": "2025-07-07 01:47:07 +0000",
       "plains": "2025-07-07 01:45:52 +0000",
       "roofed_forest": "2025-07-07 01:47:04 +0000",
-      "river": "2025-07-07 09:16:31 +0000"
+      "river": "2025-07-07 09:16:31 +0000",
+      "desert": "2025-07-07 09:46:18 +0000"
     },
     "done": false
   },
@@ -140,6 +148,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "entered_water": "2025-07-07 09:46:17 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/stone_sword": {
     "criteria": {
       "has_cobblestone": "2025-07-07 01:51:17 +0000"
@@ -167,6 +181,12 @@
   "minecraft:recipes/decorations/torch": {
     "criteria": {
       "has_stone_pickaxe": "2025-07-07 01:45:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "entered_water": "2025-07-07 09:46:17 +0000"
     },
     "done": true
   },
@@ -206,6 +226,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/boat": {
+    "criteria": {
+      "entered_water": "2025-07-07 09:46:17 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/sign": {
     "criteria": {
       "has_planks": "2025-07-07 07:07:25 +0000"
@@ -215,6 +241,18 @@
   "dungeontactics:recipes/misc/barrel": {
     "criteria": {
       "has_spruce": "2025-07-07 07:07:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_boat": {
+    "criteria": {
+      "entered_water": "2025-07-07 09:46:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_boat": {
+    "criteria": {
+      "entered_water": "2025-07-07 09:46:17 +0000"
     },
     "done": true
   }

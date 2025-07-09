@@ -17,17 +17,17 @@ timestamps:
   jail: 0
   onlinejail: 0
   logout: 1751880613449
-  login: 1751877513642
+  login: 1751881508056
 money: '0.0'
 last-account-name: Farling
 lastlocation:
   world: f25f6ded-2329-4b04-8171-0f747c9a833c
   world-name: world
-  x: -228.5424694076086
+  x: -240.23946379301867
   y: 205.0
-  z: -326.56560941610786
-  yaw: 71.85182189941406
-  pitch: 25.200002670288086
+  z: -325.56897346300525
+  yaw: 90.75180053710938
+  pitch: 29.250036239624023
 logoutlocation:
   world: f25f6ded-2329-4b04-8171-0f747c9a833c
   world-name: world
